@@ -1,6 +1,6 @@
+# Tools and workflow overview
 
-
-## Ipileaflet for jupyter notebooks
+## Ipyleaflet for jupyter notebooks
 **Use case**: Visualiaze and do data analysis with jupyter notebooks. The user can visualize a GIS dataset including all the leaflet capabilities including annotations, plugins, layers, etc.
 [Documentation and usage](https://ipyleaflet.readthedocs.io/en/latest/index.html)
 ### Most common usage scenarios
