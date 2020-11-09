@@ -12,7 +12,9 @@ QGIS is a professional GIS application that is built on top of and proud to be i
 It is a tool kit and ecosystem composed of different services and functionalities. I can also be extended with plugins, etc.
 
 [Download](https://qgis.org/en/site/index.html)
+
 [Documentation and tutorials](https://www.qgistutorials.com/en/index.html). These are useful to better understand all the things you can do.
+
 [General information of QGIS softwarwhttps](//en.wikipedia.org/wiki/QGIS)
 
 ### Most common usage scenarios
