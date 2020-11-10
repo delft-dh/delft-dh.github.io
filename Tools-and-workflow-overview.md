@@ -20,3 +20,6 @@ It is a tool kit and ecosystem composed of different services and functionalitie
 ### Most common usage scenarios
 - Generating data, annotations and preparing it to archive it.
 - Working with standalone data in diverse formats.
+
+## GeoServer
+In computing, GeoServer is an open-source server written in Java that allows users to share, process and edit geospatial data. Designed for interoperability, it publishes data from any major spatial data source using open standards.
