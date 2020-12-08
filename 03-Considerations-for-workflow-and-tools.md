@@ -4,3 +4,9 @@
 
 ## Scenario for FAIR with challenges
 Postgrel database, copying database implies relicating it in an environment to access it etc. In this case it is improbable that the person who will reproduce the research will do it.
+
+## Interoperability considerations in the context of HGIS
+Intro paragraph,......
+### Issues with formats
+
+### Recommended formats
