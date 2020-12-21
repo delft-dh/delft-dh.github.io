@@ -1,5 +1,3 @@
-## Collect Raw Data
-
 ### Collect data
 
 ### Prepare data
