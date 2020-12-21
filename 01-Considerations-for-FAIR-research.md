@@ -1,9 +1,9 @@
-# What is FAIR research?
+## What is FAIR?
 FAIR stands for **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable/**R**eproducible.
 
-## Considerations for Findability
+### Considerations for Findability
 
-### Examples challenges related to Findability
+#### Examples challenges related to Findability
 
 ## Considerations for Accessibility
 - The selected standard/format.
