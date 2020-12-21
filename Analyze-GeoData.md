@@ -1,10 +1,10 @@
 ## Version Control
 
-### Qualitative Analysis
+## Qualitative Analysis
 
-### Quantitative Analysis
+## Quantitative Analysis
 
-#### QGIS
+### QGIS
 QGIS is a professional GIS application that is built on top of and proud to be itself Free and Open Source Software (FOSS).
 It is a tool kit and ecosystem composed of different services and functionalities. I can also be extended with plugins, etc.
 
@@ -14,6 +14,15 @@ It is a tool kit and ecosystem composed of different services and functionalitie
 
 [General information of QGIS softwarwhttps](//en.wikipedia.org/wiki/QGIS)
 
-##### Most common usage scenarios
+#### Most common usage scenarios
 - Generating data, annotations and preparing it to archive it.
 - Working with standalone data in diverse formats.
+
+## Python
+### ArcPy
+### Pandas
+### Geopandas
+
+## Jupyter Notebooks
+
+## R
