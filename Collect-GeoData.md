@@ -1,4 +1,4 @@
-## Collect data
+## Geodata repositories 
 
 We have found there are image classification machine learning libraries you can use with QGIS. If you have other tools or suggested procedures, feel free to add them.
 
