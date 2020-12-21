@@ -1,9 +1,9 @@
-### Object recognition
+## Object recognition
 
-### Data structure
+## Data structure
 
-### Map timelines
+## Map timelines
 
-### Automatic Vectorization
+## Automatic Vectorization
 
-### Automatic Modeling
+## Automatic Modeling
