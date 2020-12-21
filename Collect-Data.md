@@ -1,20 +1,20 @@
-### Collect data
+## Collect data
 
-### Prepare data
+## Prepare data
 
-#### Data Conversion
+### Data Conversion
 Converting data types can be very handy. For example, in order to use GML data in Python with the geopandas library, we need to [convert it to GeoJSON format](https://gis.stackexchange.com/questions/77974/converting-gml-to-geojson-using-python-and-ogr-with-geometry-transformation). 
 
-#### Data Version Control (DVC)
+### Data Version Control (DVC)
 
-### Organize and store data 
+## Organize and store data 
 
-#### PostGIS
+### PostGIS
 
-#### Postgres
+### Postgres
 
-#### File organization
+### File organization
 
-### Preview data
+## Preview data
 
-### Cross data
+## Cross data
