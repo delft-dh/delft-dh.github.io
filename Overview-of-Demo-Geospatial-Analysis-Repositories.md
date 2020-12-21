@@ -19,4 +19,23 @@ The data source is a .csv file you can find [here](https://raw.githubusercontent
 	- Heatmap: [Mapbox Density Heatmap | Python | Plotly](https://plotly.com/python/mapbox-density-heatmaps/)
 	- Heatmap: [heatmap.js : Dynamic Heatmaps for the Web](https://www.patrick-wied.at/static/heatmapjs/)
 
-## 
+## Polygon Area Overlap 
+
+"Between the 10 datasets that are loaded, which two show the most, or least, similarity in spatial patterns?" 
+
+Calculate degree to which polygons in n spatial datasets overlap
+
+- [gdal - Calculate area of polygons using OGR in python script - Geographic Information Systems Stack Exchange](https://gis.stackexchange.com/questions/169186/calculate-area-of-polygons-using-ogr-in-python-script)
+	- percentage of overlap, and given the total area (i.e., the sum of the polygons’ area), you can derive the actual area of the overlapping zone
+	- [ArcGIS Pro Python reference—ArcGIS Pro | Documentation](https://pro.arcgis.com/en/pro-app/latest/arcpy/main/arcgis-pro-arcpy-reference.htm)
+	- [Count Overlapping Features (Analysis)—ArcGIS Pro | Documentation](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/count-overlapping-features.htm)
+	- [Measuring Polygon Overlap in QGIS and PostGIS | At These Coordinates](https://atcoordinates.info/2018/11/26/measuring-polygon-overlap-in-qgis-and-postgis/)
+
+## Refine population density by built area in Rotterdam
+
+- import data from TOP10NL_37O.gml file (land use classifications)
+	- try converting from GML to GeoJSON using [Converting gml to geojson using Python and ogr with geometry transformation? - Geographic Information Systems Stack Exchange](https://gis.stackexchange.com/questions/77974/converting-gml-to-geojson-using-python-and-ogr-with-geometry-transformation)
+		- the ESPG is 4326 - WGS 84
+	- Select Gebouw layer, all building types or maybe try to leave out ones that are not meant for living (‘brander’)
+	- Calculate spatial area of all polygons in Gebouw layer
+	- Use Bevolking file with pop data to calculate real pop dense (write function) 
