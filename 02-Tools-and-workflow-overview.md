@@ -23,3 +23,5 @@ It is a tool kit and ecosystem composed of different services and functionalitie
 
 ## GeoServer
 In computing, GeoServer is an open-source server written in Java that allows users to share, process and edit geospatial data. Designed for interoperability, it publishes data from any major spatial data source using open standards.
+
+## Data Version Control (DVC)
