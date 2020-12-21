@@ -5,17 +5,6 @@ Our aim with this wiki is to articulate the general data wheel framework into a 
 
 Figure 1. The Waterwheel methodology (by Carola Hein and a group working on Digital Humanities at Delft University of Technology).
 
-
-## Collect Raw Data
-
-### Collect data
-
-### Prepare data
-
-### Preview data
-
-### Cross data
-
 ## Prepare Geo-data
 
 ### Object recognition
