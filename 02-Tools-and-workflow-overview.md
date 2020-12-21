@@ -5,12 +5,6 @@ Prepare
 
 
 Analyse
-## Python
-### ArcPy
-### Pandas
-### Geopandas
-## Jupyter
-## R
 
 
 Visualise
