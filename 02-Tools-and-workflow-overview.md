@@ -2,9 +2,7 @@ Share
 
 
 Prepare
-## PostGIS
-## Postgres
-## Data Version Control (DVC)
+
 
 Analyse
 ## Python
