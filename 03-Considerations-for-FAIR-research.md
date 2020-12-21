@@ -18,6 +18,8 @@ FAIR stands for **F**indable, **A**ccessible, **I**nteroperable, and **R**eusabl
 - Formatting issues
 
 ### Recommended file formats
+- **GeoJSON**
+- **GML**
 
 ## Considerations for Reusability/Reproducibility
 
