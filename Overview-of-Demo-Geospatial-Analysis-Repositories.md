@@ -1,6 +1,22 @@
-## WWII Bombings in the Netherlands 
+## 1. WWII bombings by country
 
 As a historian studying the Netherlands infrastructure damaged in WWII, I would like to analyse the amount of bombs thrown in the Netherlands in the different years of WWII and represent those in a map through time using Jupyter notebooks and geopandas.
+
+**Link to Repository:** 
+
+Concepts illustrated:
+- Tracking changes to dataset(s) using Data Version Control (DVC)
+- Version control with Git
+- Data cleaning
+- Creating a custom heatmap
+- Checking and matching CRSs between data layers
+
+Tools demonstrated:
+- Python
+- Geopandas (Python library for geospatial data)
+- Jupyter Notebooks
+- Git
+- DVC
 
 Based on this tutorial from the [Programming Historian](https://programminghistorian.org/en/lessons/visualizing-with-bokeh#creating-a-python-3-virtual-environment), with a case study of WWII bombings. Is a bit of a rough subject but history is dark :)
 
@@ -19,11 +35,23 @@ The data source is a .csv file you can find [here](https://raw.githubusercontent
 	- Heatmap: [Mapbox Density Heatmap | Python | Plotly](https://plotly.com/python/mapbox-density-heatmaps/)
 	- Heatmap: [heatmap.js : Dynamic Heatmaps for the Web](https://www.patrick-wied.at/static/heatmapjs/)
 
-## Polygon Area Overlap 
+## 2. Polygon Area Overlap 
 
 "Between the 10 datasets that are loaded, which two show the most, or least, similarity in spatial patterns?" 
 
 Calculate degree to which polygons in n spatial datasets overlap
+
+**Link to Repository:** 
+
+Concepts illustrated:
+- Spatial calculations
+
+
+Tools demonstrated:
+- Python
+- ArcPy (Python library)
+- Jupyter notebooks
+- 
 
 - [gdal - Calculate area of polygons using OGR in python script - Geographic Information Systems Stack Exchange](https://gis.stackexchange.com/questions/169186/calculate-area-of-polygons-using-ogr-in-python-script)
 	- percentage of overlap, and given the total area (i.e., the sum of the polygons’ area), you can derive the actual area of the overlapping zone
@@ -31,7 +59,24 @@ Calculate degree to which polygons in n spatial datasets overlap
 	- [Count Overlapping Features (Analysis)—ArcGIS Pro | Documentation](https://pro.arcgis.com/en/pro-app/latest/tool-reference/analysis/count-overlapping-features.htm)
 	- [Measuring Polygon Overlap in QGIS and PostGIS | At These Coordinates](https://atcoordinates.info/2018/11/26/measuring-polygon-overlap-in-qgis-and-postgis/)
 
-## Refine population density by built area in Rotterdam
+## 3. Refine population density by built area in Rotterdam
+
+The research question: can we link population for the Dutch city of Rotterdam to the built area in the city plans? 
+
+Often, the total area of the city is used to calculate population density, but the total area also includes water, roads, green areas, etc. In the use case, we only combine the built-up area attribute with the population and thus calculate the 'real' population density.
+
+**Link to Repository:** 
+
+Concepts illustrated:
+- Geospatial file type conversion (GML to GeoJSON)
+- Extracting layers by conditional values
+- Calculating spatial area by polygon label
+
+Tools demonstrated:
+- Python
+- OGR
+- Jupyter notebooks
+- 
 
 - import data from TOP10NL_37O.gml file (land use classifications)
 	- try converting from GML to GeoJSON using [Converting gml to geojson using Python and ogr with geometry transformation? - Geographic Information Systems Stack Exchange](https://gis.stackexchange.com/questions/77974/converting-gml-to-geojson-using-python-and-ogr-with-geometry-transformation)
