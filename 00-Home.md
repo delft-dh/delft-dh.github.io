@@ -1,9 +1,7 @@
 # About this wiki
-Our aim with this wiki is to articulate the general data wheel framework into a set of workflows and tools that realize this general framework. We are defining and recommending processes and tools for different phases of the research workflow. Geographic and historic data collection, data verification, data publishing, as well as analysis, source management, and other aspects.
-
-![image](uploads/a179c4bf6a42c51e87eabbda378b1708/image.png)
+Our aim with this wiki is to articulate the Data Wheel framework into a set of workflows and tools that help researchers to realize each component of this general framework. We are defining and recommending processes and tools for different phases of the research workflow. These include geographic and historic data collection, data verification, data publishing, as well as analysis, source management, and other aspects.
 
 ![GeoPlatform_datawheel](uploads/b21d256c85b5533c891f5b663dab8b6a/GeoPlatform_datawheel.png)
 
-Figure 1. The Waterwheel methodology (by Carola Hein and a group working on Digital Humanities at Delft University of Technology).
+Figure 1. The Data Wheel methodology (by Carola Hein and the Delft Digital Humanities group at Delft University of Technology).
 
