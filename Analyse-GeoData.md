@@ -20,13 +20,13 @@ It is a tool kit and ecosystem composed of different services and functionalitie
 - Generating data, annotations and preparing it to archive it.
 - Working with standalone data in diverse formats.
 
-## Python
-### ArcPy
-### Pandas
-### Geopandas
+### Python
+#### ArcPy
+#### Pandas
+#### Geopandas
 
-## Jupyter Notebooks
+### Jupyter Notebooks
 
-## R
+### R
 
 ## Big Data Analysis
