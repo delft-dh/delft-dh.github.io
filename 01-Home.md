@@ -5,15 +5,3 @@ Our aim with this wiki is to articulate the general data wheel framework into a 
 
 Figure 1. The Waterwheel methodology (by Carola Hein and a group working on Digital Humanities at Delft University of Technology).
 
-
-
-
-## Visualize Geo-data
-
-### Lighttable
-
-### Map timelines
-
-### Making maps
-
-### Legend
