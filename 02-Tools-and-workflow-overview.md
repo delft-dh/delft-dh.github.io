@@ -8,9 +8,7 @@ Analyse
 
 
 Visualise
-## Matplotlib
-## Plotly
-## Bokeh
+
 
 Share
 
