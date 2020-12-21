@@ -3,5 +3,7 @@ Our aim with this wiki is to articulate the general data wheel framework into a 
 
 ![image](uploads/a179c4bf6a42c51e87eabbda378b1708/image.png)
 
+![GeoPlatform_datawheel](uploads/b21d256c85b5533c891f5b663dab8b6a/GeoPlatform_datawheel.png)
+
 Figure 1. The Waterwheel methodology (by Carola Hein and a group working on Digital Humanities at Delft University of Technology).
 
