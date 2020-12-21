@@ -6,16 +6,6 @@ Our aim with this wiki is to articulate the general data wheel framework into a 
 Figure 1. The Waterwheel methodology (by Carola Hein and a group working on Digital Humanities at Delft University of Technology).
 
 
-## Share Geo-data
-
-### Platform
-
-### Metadata preparation
-
-### DOI for datasets
-
-### Geodata repository
-
 ## Collect Raw Data
 
 ### Collect data
