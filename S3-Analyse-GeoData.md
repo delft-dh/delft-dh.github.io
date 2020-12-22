@@ -20,6 +20,9 @@ Many of the libraries which are described here rely on GDAL, it is the cornersto
 https://pypi.org/project/GDAL/
 
 ### geocube
+
+### earthpy
+
 ### rasterio
 Rasterio is the go-to library for raster data handling. It lets you read/write raster files to/from numpy arrays (the de-facto standard for Python array operations), offers many convenient ways to manipulate these array (e.g. masking, vectorizing etc.) and can handle transformations of coordinate
 reference systems. Just like any other numpy array, the data can also be easily plotted, e.g. using the matplotlib library.
