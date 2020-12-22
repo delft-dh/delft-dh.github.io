@@ -3,7 +3,7 @@ A huge advantage for GIS-by-programming; these interface packages give you the a
 ## Qualitative Analysis
 
 ## Quantitative Analysis
-Many of these package descriptions come from the article by Christoph Rieke on [medium.com] (https://chrieke.medium.com/essential-geospatial-python-libraries-5d82fcc38731)
+Many of these package descriptions come from the article by Christoph Rieke on [medium.com](https://chrieke.medium.com/essential-geospatial-python-libraries-5d82fcc38731)
 
 ### ArcPy
 ### pandas
