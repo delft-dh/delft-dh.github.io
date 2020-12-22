@@ -4,16 +4,15 @@
 
 ### 4TU.ResearchData
 
-
-### Data Version Control (DVC)
-
-## Organize and store data 
+## Organise and store data 
 
 ### PostGIS
 
 ### Postgres
 
-### File organization
+### File organisation
+
+## Data Version Control (DVC)
 
 ## Preview data
 
