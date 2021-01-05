@@ -25,6 +25,8 @@ https://digital-geography.com/working-with-clusters-in-leaflet-increasing-useabi
 ## Python packages for geospatial analysis
 Many of these package descriptions come from the article by Christoph Rieke on [medium.com](https://chrieke.medium.com/essential-geospatial-python-libraries-5d82fcc38731)
 
+More here (need to be listed) : https://hydro-informatics.github.io/geo-pckg.html
+
 ### ArcPy
 ### pandas
 ### geopandas
