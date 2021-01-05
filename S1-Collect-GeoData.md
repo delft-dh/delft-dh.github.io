@@ -11,6 +11,17 @@ https://medium.com/better-programming/how-to-get-open-street-and-map-data-using-
 Need open data? Ask for it!
 https://opendata.stackexchange.com/
 
+### Open Environmental and Earth Observation data
+
+Recently there has been a wide spread adoption of Open Access or Open Data policies for environmental and Earth Observation data. With these developments we are seeing a paradigm shift towards a data-centric Environmental Observation Web, where data is semantically enriched thus enabling the consumption, production and reuse of environmental observations in cross-domain applications. We are also seeing the proliferation of data portals and catalogues:
+
+* http://www.geoportal.org/ : The Group on Earth Observations portal (GEOSS).
+* http://marine.copernicus.eu/ : The EU Commission portal for marine modelling data.
+* https://www.data.gov/ : The Open Data portal of the US Government.
+* https://scihub.copernicus.eu/dhus/#/home : The Open Access data portal of the European Space Agency
+
+(From: https://digital-geography.com/digital-earth-potential-data-brokers/)
+
 ## Geodata repositories 
 
 “Data repositories are the best way to share data.” “Datasets should be recognised as a primary research output, including those that are not linked to an article.” [](Link)https://community.data.4tu.nl/2020/11/21/leons-swan-song/
