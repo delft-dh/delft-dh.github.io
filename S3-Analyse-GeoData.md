@@ -3,6 +3,14 @@ A huge advantage for GIS-by-programming; these interface packages give you the a
 ## Qualitative Analysis
 
 ## Quantitative Analysis
+
+### Nearest neighbor
+https://medium.com/@tjukanov/searching-for-isolation-with-gis-eea3f2ab7d99
+
+### Text analysis
+https://medium.com/@tjukanov/places-and-their-names-observations-from-11-million-place-names-8ea34cf61da4
+
+## Python packages for geospatial analysis
 Many of these package descriptions come from the article by Christoph Rieke on [medium.com](https://chrieke.medium.com/essential-geospatial-python-libraries-5d82fcc38731)
 
 ### ArcPy
@@ -37,7 +45,7 @@ Lets you visualize spatial data on interactive leaflet maps.
 ### descartes
 Enables plotting of shapely geometries as matplotlib paths/ patches. Also a dependency for the geometry plotting functions of geopandas.
 
-## pyproj
+### pyproj
 For transformation of projections. Mostly unnecessary when using the more conveniant geopandas coordinate reference system (crs) functions.
 
 ### matplotlib
