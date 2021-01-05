@@ -17,5 +17,8 @@ In computing, GeoServer is an open-source server written in Java that allows use
 
 ## DOI for datasets
 
+## Docker
+
+https://digital-geography.com/osm-postgis-and-docker-an-approach-for-automatic-processing/
 
 
