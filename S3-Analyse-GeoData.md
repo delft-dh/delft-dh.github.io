@@ -67,6 +67,8 @@ xarray lets you label the dimensions of the multidimensional numpy array and com
 **More information:** https://chrieke.medium.com/essential-geospatial-python-libraries-5d82fcc38731
 
 ## R packages for geospatial analysis
+
+### cartography
 https://riatelab.github.io/ReproducibleCartography/paper/paper.html
 
 ## Big Data Analysis
