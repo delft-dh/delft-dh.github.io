@@ -8,6 +8,9 @@ GDAL is a set of software tools that translate between almost any geospatial for
 ## Aligning projections 
 If you loaded two rasters with different projections in QGIS 3 or ArcMap/ArcPro, you’d see that they would align since these software reproject “on-the-fly”. But with R or Python, you’ll need to reproject your data yourself in order to plot or use these rasters together in calculations. We can use the CRS attribute from one of our datasets to reproject the other dataset so that they are both in the same projection. See this tutorial by [Software Carpentries](https://carpentries-incubator.github.io/geospatial-python/06-raster-reproject/index.html).
 
+## Batch geocoding 
+Tools exist that let you put in the names of places (or in a .csv file) and automatically geocode using best estimate for latitude and longitude. Here is one such tool: https://www.findlatitudeandlongitude.com/batch-geocode/
+
 ## Object recognition
 
 We have found there are image classification machine learning libraries you can use with QGIS. If you have other tools or suggested procedures, feel free to add them.
