@@ -2,9 +2,8 @@ As stated by Phil Hurvitz at the University of Washington: "Whereas desktop GIS 
 
 A huge advantage for GIS-by-programming is that you have your entire workflow recorded in a central document - a document that can be re-run at will. Below are lists of some of the key spatial packages for Python and R. 
 
-For learning resources for GIS in Python, see [Software Carpentries](https://carpentries-incubator.github.io/geospatial-python/04-geo-landscape/index.html)
-
-For an introduction to GIS analysis in R, see Phil Hurvitz's [free online course from the University of Washington](http://staff.washington.edu/phurvitz/r_gis/)
+* To get started with GIS analysis in Python, see [Software Carpentries](https://carpentries-incubator.github.io/geospatial-python/04-geo-landscape/index.html)
+* For an introduction to GIS analysis in R, see Phil Hurvitz's [free online course from the University of Washington](http://staff.washington.edu/phurvitz/r_gis/)
 
 ## Qualitative Analysis
 
