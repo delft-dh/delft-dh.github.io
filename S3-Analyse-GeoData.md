@@ -10,6 +10,9 @@ https://medium.com/@tjukanov/searching-for-isolation-with-gis-eea3f2ab7d99
 ### Text analysis
 https://medium.com/@tjukanov/places-and-their-names-observations-from-11-million-place-names-8ea34cf61da4
 
+### Geometric operations
+https://automating-gis-processes.github.io/2017/lessons/L4/geometric-operations.html
+
 ## Python packages for geospatial analysis
 Many of these package descriptions come from the article by Christoph Rieke on [medium.com](https://chrieke.medium.com/essential-geospatial-python-libraries-5d82fcc38731)
 
