@@ -8,8 +8,19 @@ GDAL is a set of software tools that translate between almost any geospatial for
 ## Aligning projections 
 If you loaded two rasters with different projections in QGIS 3 or ArcMap/ArcPro, you’d see that they would align since these software reproject “on-the-fly”. But with R or Python, you’ll need to reproject your data yourself in order to plot or use these rasters together in calculations. We can use the CRS attribute from one of our datasets to reproject the other dataset so that they are both in the same projection. See this tutorial by [Software Carpentries](https://carpentries-incubator.github.io/geospatial-python/06-raster-reproject/index.html).
 
-## Batch geocoding 
+## Georeferencing
+
+### Batch geocoding 
 Tools exist that let you put in the names of places (or in a .csv file) and automatically geocode using best estimate for latitude and longitude. Here is one such tool: https://www.findlatitudeandlongitude.com/batch-geocode/
+
+### Geotagging images
+https://github.com/bennoleslie/pexif
+
+https://developer.here.com/blog/getting-started-with-geocoding-exif-image-metadata-in-python3
+
+https://github.com/nperony/pybatchgeotag
+
+https://stackoverflow.com/questions/55681995/how-to-georeference-an-unreferenced-aerial-image-using-ground-control-points-in
 
 ## Object recognition
 
@@ -19,7 +30,7 @@ Image classification using Machine Learning algorithms with the QGIS Orfeo Toolb
 
 ## Spatial Databases
 
-###PostGIS
+### PostGIS
 https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b
 
 https://digital-geography.com/colaborative-working-in-postgis/
