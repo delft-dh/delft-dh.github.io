@@ -10,6 +10,8 @@ Many of these package descriptions come from the article by Christoph Rieke on [
 ### geopandas
 Geopandas combines the geometry objects of shapely, the read/write/ projection functions of fiona and the powerful dataframe interface of the pandas library in one awesome package. In the spreadsheet-like dataframe, the last column ‘geometry’ stores the shapely geometry objects, all shapely functions can be applied. The pandas mechanics offers super easy ways to manipulate, plot and analyze the data, e.g. dataframe groupby operations etc.
 
+https://digital-geography.com/run-gis-functions-directly-in-python-with-geopandas/
+
 ### shapely
 With shapely, you can create shapely geometry objects (e.g. Point, Polygon, Multipolygon) and manipulate them, e.g. buffer, calculate the area or an intersection etc. 
 
