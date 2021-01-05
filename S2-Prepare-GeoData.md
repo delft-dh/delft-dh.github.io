@@ -17,9 +17,14 @@ We have found there are image classification machine learning libraries you can 
 
 Image classification using Machine Learning algorithms with the QGIS Orfeo Toolbox: [Machine Learning in QGIS : Image Classification](https://www.youtube.com/watch?v=msUyQmZwqo8&ab_channel=HomeMadeSchool)
 
-## Data structure
+## Spatial Databases
 
-## Map timelines
+###PostGIS
+https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b
+
+https://digital-geography.com/colaborative-working-in-postgis/
+
+https://digital-geography.com/short-note-export-layers-to-postgis-with-processing/
 
 ## Automatic Vectorization
 
