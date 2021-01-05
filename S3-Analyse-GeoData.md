@@ -1,6 +1,10 @@
-A huge advantage for GIS-by-programming; these interface packages give you the ability to access functions unique to particular programs, but have your entire workflow recorded in a central document - a document that can be re-run at will. Below are lists of some of the key spatial packages for Python. [From: Software Carpentries](https://carpentries-incubator.github.io/geospatial-python/04-geo-landscape/index.html)
+As stated by Phil Hurvitz at the University of Washington: "Whereas desktop GIS packages are great applications for exploratory spatial data analysis and generation of map graphics, with typical work flows they are limited for scientific research. **If you can’t remember, reproduce, or clearly communicate your methodology, then what you are doing cannot be technically called “research.”** Both ArcGIS Desktop and QGIS, two leading desktop GIS applications, employ the use of Python for scripting geoprocessing analyses and user interfaces." See more in this presentation by Hurvitz: http://staff.washington.edu/phurvitz/r_gis/images/reproducible_gis_csde_20200212a.pptm
 
-Other programming languages exist that can be very useful for geospatial analysis, like R http://staff.washington.edu/phurvitz/r_gis/
+A huge advantage for GIS-by-programming is that you have your entire workflow recorded in a central document - a document that can be re-run at will. Below are lists of some of the key spatial packages for Python and R. 
+
+For learning resources for GIS in Python, see [Software Carpentries](https://carpentries-incubator.github.io/geospatial-python/04-geo-landscape/index.html)
+
+For an introduction to GIS analysis in R, see Phil Hurvitz's [free online course from the University of Washington](http://staff.washington.edu/phurvitz/r_gis/)
 
 ## Qualitative Analysis
 
