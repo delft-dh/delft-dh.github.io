@@ -17,6 +17,8 @@ https://digital-geography.com/service-areas-traffic-and-qgis/
 
 ### Plotly
 
+https://medium.com/tech-carnot/plotly-datashader-visualizing-large-geospatial-datasets-bea27b9d7824
+
 ### Bokeh
 
 ## Legend
