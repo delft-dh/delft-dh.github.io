@@ -1,5 +1,7 @@
 A huge advantage for GIS-by-programming; these interface packages give you the ability to access functions unique to particular programs, but have your entire workflow recorded in a central document - a document that can be re-run at will. Below are lists of some of the key spatial packages for Python. [From: Software Carpentries](https://carpentries-incubator.github.io/geospatial-python/04-geo-landscape/index.html)
 
+Other programming languages exist that can be very useful for geospatial analysis, like R http://staff.washington.edu/phurvitz/r_gis/
+
 ## Qualitative Analysis
 
 ## Quantitative Analysis
