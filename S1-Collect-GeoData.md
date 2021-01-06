@@ -37,6 +37,10 @@ CBS was established in 1899 in response to the need for independent and reliable
 https://opendata.cbs.nl/statline/portal.html?_la=nl&_catalog=CBS
 https://www.cbs.nl/nl-nl/onze-diensten/open-data/statline-als-open-data
 
+### Kaggle
+"Kaggle offers a no-setup, customizable, Jupyter Notebooks environment. Access free GPUs and a huge repository of community published data & code."
+https://www.kaggle.com/datasets
+
 ### ArcGIS API
 
 https://services8.arcgis.com/TWfU0bgvgUkCgHLa/ArcGIS/rest/services
