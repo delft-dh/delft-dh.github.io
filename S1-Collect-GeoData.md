@@ -9,7 +9,7 @@ https://medium.com/better-programming/how-to-get-open-street-and-map-data-using-
 
 ### PDOK Open Data
 
-"At PDOK you will find open data sets from the government with current geo-information. These datasets are accessible via geo web services, RESTful APIs and available as downloads and linked data." https://www.pdok.nl/
+"At PDOK you will find open data sets from the [Dutch] government with current geo-information. These datasets are accessible via geo web services, RESTful APIs and available as downloads and linked data." https://www.pdok.nl/
 
 ### Open Data Stack Exchange
 Need open data? Ask for it!
