@@ -9,7 +9,9 @@ https://medium.com/better-programming/how-to-get-open-street-and-map-data-using-
 
 ### PDOK Open Data
 
-"At PDOK you will find open data sets from the [Dutch] government with current geo-information. These datasets are accessible via geo web services, RESTful APIs and available as downloads and linked data." https://www.pdok.nl/
+"Public Services On the Map ( PDOK ) is a platform for accessing geo data sets of Dutch governments. This is current and reliable data for both the public and private sector. PDOK makes digital geo-information available as data services and files. The PDOK services are based on open data and are therefore freely available to everyone. 
+
+At PDOK you will find open data sets from the [Dutch] government with current geo-information. These datasets are accessible via geo web services, RESTful APIs and available as downloads and linked data." https://www.pdok.nl/
 
 ### Open Data Stack Exchange
 Need open data? Ask for it!
