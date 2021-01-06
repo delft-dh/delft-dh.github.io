@@ -4,7 +4,8 @@ A huge advantage for GIS-by-programming is that you have your entire workflow re
 
 * To get started with GIS analysis in Python, see [Software Carpentries](https://carpentries-incubator.github.io/geospatial-python/04-geo-landscape/index.html)
 * For an introduction to GIS analysis in R, see Phil Hurvitz's [free online course from the University of Washington](http://staff.washington.edu/phurvitz/r_gis/)
-* [A course on Kaggle featuring many common GIS data operations](https://www.kaggle.com/alexisbcook/geospatial-learn-course-data/notebooks)
+* To follow a hands-on course analyzing GIS sample data, see [this micro-course on geospatial analysis from Kaggle](https://www.kaggle.com/alexisbcook/geospatial-learn-course-data/notebooks)
+* To hone your skills working with the pandas data science library in Python, follow [this micro-course on pandas from Kaggle](https://www.kaggle.com/learn/pandas)
 
 ## Qualitative Analysis
 
