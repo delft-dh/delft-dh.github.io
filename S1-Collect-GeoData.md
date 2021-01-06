@@ -30,7 +30,7 @@ Recently there has been a wide spread adoption of Open Access or Open Data polic
 
 https://services8.arcgis.com/TWfU0bgvgUkCgHLa/ArcGIS/rest/services
 
-### Kadaster API
+### PDOK API
 
 https://www.pdok.nl/restful-api/-/article/basisregistratie-topografie-brt-topnl#
 
