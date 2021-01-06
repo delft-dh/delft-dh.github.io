@@ -26,6 +26,15 @@ Recently there has been a wide spread adoption of Open Access or Open Data polic
 
 (From: https://digital-geography.com/digital-earth-potential-data-brokers/)
 
+### CBS Open Data
+
+"As the national statistical office, Statistics Netherlands (CBS) provides reliable statistical information and data to produce insight into social issues, thus supporting the public debate, policy development and decision-making while contributing to prosperity, well-being and democracy.
+
+CBS was established in 1899 in response to the need for independent and reliable information that advances the understanding of social issues. This is still the main role of CBS. Through time, CBS has grown into an innovative knowledge institution, with continuous adoption of new technologies and developments in order to safeguard the quality of its data and its independent position."
+
+https://opendata.cbs.nl/statline/portal.html?_la=nl&_catalog=CBS
+https://www.cbs.nl/nl-nl/onze-diensten/open-data/statline-als-open-data
+
 ### ArcGIS API
 
 https://services8.arcgis.com/TWfU0bgvgUkCgHLa/ArcGIS/rest/services
@@ -33,6 +42,10 @@ https://services8.arcgis.com/TWfU0bgvgUkCgHLa/ArcGIS/rest/services
 ### PDOK API
 
 https://www.pdok.nl/restful-api/-/article/basisregistratie-topografie-brt-topnl#
+
+### CBS API
+
+https://dataderden.cbs.nl/odataapi
 
 ## Geodata repositories 
 
