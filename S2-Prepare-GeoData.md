@@ -41,6 +41,11 @@ https://github.com/nperony/pybatchgeotag
 
 https://stackoverflow.com/questions/55681995/how-to-georeference-an-unreferenced-aerial-image-using-ground-control-points-in
 
+## Geo Annotating
+
+### GeoAnnotate
+https://github.com/utcompling/GeoAnnotate/
+
 ## Object recognition
 
 We have found there are image classification machine learning libraries you can use with QGIS. If you have other tools or suggested procedures, feel free to add them.
