@@ -25,4 +25,5 @@ https://medium.com/tech-carnot/plotly-datashader-visualizing-large-geospatial-da
 
 ### Datashader
 
-## Legend
+## Inspiration and precedents
+https://tjukanov.org/
