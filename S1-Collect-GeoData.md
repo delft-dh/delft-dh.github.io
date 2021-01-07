@@ -7,6 +7,26 @@ https://www.openstreetmap.org/#map=8/52.154/5.295
 
 https://medium.com/better-programming/how-to-get-open-street-and-map-data-using-python-2b777bf5af14
 
+### MapBox
+"Go to www.mapbox.com and create an account. For this step, you only need an email for account verification. When it’s done you get your token on the “Tokens” page and clicking on the “Create a token” button.
+With this token, you can draw 50000 maps/month for free. By the end of the article, we’ll see how to store maps and minimize the number of requests needed." 
+
+"It is common to store this information in a separate file from scripts. A usual way to do is using a *.ini file for storing, and then the python built-in configparser module for accessing it." 
+
+```bash
+[mapbox]
+secret_token=your-token
+```
+`any_file_needing_token.py`
+
+```python
+import configparser
+config = configparser.read('config.ini')
+mapbox_token = config['mapbox']['secret_token']
+```
+
+https://towardsdatascience.com/how-to-create-animated-scatter-maps-with-plotly-and-dash-f10bb82d357a
+
 ### PDOK Open Data
 
 "Public Services On the Map ( PDOK ) is a platform for accessing geo data sets of Dutch governments. This is current and reliable data for both the public and private sector. PDOK makes digital geo-information available as data services and files. The PDOK services are based on open data and are therefore freely available to everyone. 
