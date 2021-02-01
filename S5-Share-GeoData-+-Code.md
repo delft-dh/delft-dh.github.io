@@ -5,10 +5,11 @@
 ### TU Delft GitLab
 
 ### GitHub
+https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668
+
+#### GitHub Pages
 
 ### Zenodo
-
-### GitHub Pages
 
 ### GeoServer
 In computing, GeoServer is an open-source server written in Java that allows users to share, process and edit geospatial data. Designed for interoperability, it publishes data from any major spatial data source using open standards.
