@@ -33,24 +33,23 @@ If you loaded two rasters with different projections in QGIS 3 or ArcMap/ArcPro,
 Tools exist that let you put in the names of places (or in a .csv file) and automatically geocode using best estimate for latitude and longitude. Here is one such tool: https://www.findlatitudeandlongitude.com/batch-geocode/
 
 ### Geotagging images
-https://github.com/bennoleslie/pexif
 
-https://developer.here.com/blog/getting-started-with-geocoding-exif-image-metadata-in-python3
-
-https://github.com/nperony/pybatchgeotag
-
-https://stackoverflow.com/questions/55681995/how-to-georeference-an-unreferenced-aerial-image-using-ground-control-points-in
+**Resources:**
+* [Python EXIF parsing](https://github.com/bennoleslie/pexif)
+* [Getting Started with Geocoding Exif Image Metadata in Python 3](https://developer.here.com/blog/getting-started-with-geocoding-exif-image-metadata-in-python3)
+* [Batch Image Geocoding in Python](https://github.com/nperony/pybatchgeotag)
+* [Georeference an unreferenced aerial image using ground control points in python](https://stackoverflow.com/questions/55681995/how-to-georeference-an-unreferenced-aerial-image-using-ground-control-points-in)
 
 ## Geo Annotating
 
-### GeoAnnotate
-https://github.com/utcompling/GeoAnnotate/
+**Resources:**
+* GeoAnnotate is a javascript application built to collect toponym and document-level geographic annotations. It is designed to work with Parse (https://www.parse.com/), a free backend service. Currently it is not hosted on any publicly accessible servers. [Link](https://github.com/utcompling/GeoAnnotate/) to GitHub repository. 
 
 ## Object recognition
 
-We have found there are image classification machine learning libraries you can use with QGIS. If you have other tools or suggested procedures, feel free to add them.
+**Resources:**
 
-Image classification using Machine Learning algorithms with the QGIS Orfeo Toolbox: [Machine Learning in QGIS : Image Classification](https://www.youtube.com/watch?v=msUyQmZwqo8&ab_channel=HomeMadeSchool)
+* Image classification using Machine Learning algorithms with the QGIS Orfeo Toolbox: [Machine Learning in QGIS : Image Classification](https://www.youtube.com/watch?v=msUyQmZwqo8&ab_channel=HomeMadeSchool)
 
 
 ## Automatic Vectorization
