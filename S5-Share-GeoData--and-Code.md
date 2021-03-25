@@ -39,7 +39,7 @@ From [ourcodingclub.github.io](https://ourcodingclub.github.io/tutorials/git-for
 
 ### Other geodata repositories
 
-Check out the Geodata repositories section of this wiki (https://github.com/delft-dh/DDH-Community-Data-Wiki/wiki/S1-Collect-GeoData#geodata-repositories) and this list of geodata repositories to decide where you might want to publish your data.
+Check out the [Geodata repositories](https://github.com/delft-dh/DDH-Community-Data-Wiki/wiki/S1-Collect-GeoData#geodata-repositories) section of this wiki and [this list of geodata repositories](https://en.wikipedia.org/wiki/List_of_GIS_data_sources) to decide where you might want to publish your data.
 
 ## Metadata preparation
 
