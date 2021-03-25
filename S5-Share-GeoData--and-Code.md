@@ -1,5 +1,7 @@
 ## Data and Code Repositories
 
+Data repositories, like 4TU.ResearchData or Zenodo and code repositories, like GitHub or GitLab are the best way to share data and code.  From [community.data.4tu.nl](https://community.data.4tu.nl/2020/11/21/leons-swan-song/): “Datasets should be recognised as a primary research output, including those that are not linked to an article.” 
+
 ### 4TU.ResearchData
 
 From [researchdata.4tu.nl](https://researchdata.4tu.nl/en/about/organisation/): "4TU.ResearchData is an international data repository for science, engineering and design. Its services include curation, sharing, long-term access and preservation of research datasets. These services are available to anyone around the world. In addition, 4TU.ResearchData also offers training and resources to researchers to support them in making research data findable, accessible, interoperable and reproducible (FAIR).
@@ -39,7 +41,7 @@ From [ourcodingclub.github.io](https://ourcodingclub.github.io/tutorials/git-for
 
 ### Other geodata repositories
 
-Check out the [Geodata repositories](https://github.com/delft-dh/DDH-Community-Data-Wiki/wiki/S1-Collect-GeoData#geodata-repositories) section of this wiki and [this list of geodata repositories](https://en.wikipedia.org/wiki/List_of_GIS_data_sources) to decide where you might want to publish your data.
+Check out the [Geodata repositories](https://github.com/delft-dh/DDH-Community-Data-Wiki/wiki/S1-Collect-GeoData#geodata-repositories) section of this wiki and [this list of geodata repositories](https://en.wikipedia.org/wiki/List_of_GIS_data_sources) to decide where you might want to publish your data. OpenAIRE.eu has published this [guide for researchers on choosing a repository](https://www.openaire.eu/opendatapilot-repository-guide) to share your research outputs in after your project ends. 
 
 ## Metadata preparation
 
