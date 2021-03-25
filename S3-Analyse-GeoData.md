@@ -1,3 +1,5 @@
+Learning how to work in Python or another programming language like R requires commitment and time to master. However, because these are highly useful and open-source tools that have applications in a broad array of disciplines, there is a plethora of knowledge available to help get started and troubleshoot challenges you run into.
+
 Below are lists of some of the key spatial packages for quantitative and qualitative analysis of geospatial data in Python and R. 
 
 * To get started with GIS analysis in Python, see [Software Carpentries](https://carpentries-incubator.github.io/geospatial-python/04-geo-landscape/index.html)
