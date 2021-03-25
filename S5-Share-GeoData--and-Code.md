@@ -13,6 +13,8 @@ While you are writing your article, you may reserve a DOI for the data to which 
 ### DataVerseNL
 From [researchdata.4tu.nl](https://researchdata.4tu.nl/en/use/manage-share/): "Members of the three technical universities (Eindhoven, Twente and Delft) can draw upon DataverseNL through 4TU.ResearchData. The objective of this open source application is to make research data accessible to others. You can store data in the DataverseNL environment and grant multiple individuals controlled access to them. Once you have requested the project environment or dataverse from 4TU.ResearchData, you are free to arrange this environment as you wish."
 
+Click the link above to learn more.
+
 ### Zenodo
 
 From [zenodo.org](https://zenodo.org/): "Built and developed by researchers, to ensure that everyone can join in Open Science. The OpenAIRE project, in the vanguard of the open access and open data movements in Europe was commissioned by the EC to support their nascent Open Data policy by providing a catch-all repository for EC funded research. CERN, an OpenAIRE partner and pioneer in open source, open access and open data, provided this capability and Zenodo was launched in May 2013.
@@ -21,18 +23,23 @@ Every upload is assigned a Digital Object Identifier (DOI), to make them citable
 
 **Sign up for an account through your GitHub account or ORCID here:** https://zenodo.org/signup/
 
-### TU Delft GitLab
+### TU Delft GitLab (code only)
 TU Delft has its own instance of GitLab at tudelft.gitlab.nl. 
 
 From [tudelft.nl](https://www.tudelft.nl/en/library/research-data-management/r/manage/collect-and-document): "GitLab, Gitlab.tudelft.nl, is an online Git repository management tool with a wiki, issue tracker, Continuous Integration and Continuous Deployment built-in. The service is intended for researchers. It is a TU Delft provided version control system with backup facility, particularly useful for working with code and software. Access to external collaborators can be provided.
 
 Similar services are, for example, GitHub.com or GitLab.com. In contrast to these services, GitLab TU Delft is hosted by the TU Delft itself, on campus.  You can create a GitLab repository yourself at https://gitlab.tudelft.nl. More information and a form to request access for external users can be found at [Top Desk](https://tudelft.topdesk.net/tas/public/ssp/content/detail/service?unid=888da653ddc04d01b2d5db413fc99a42)." 
 
-### GitHub
+**Sign up for a free TU Delft GitLab account here:** https://gitlab.tudelft.nl
+
+### GitHub (code only)
+From [ourcodingclub.github.io](https://ourcodingclub.github.io/tutorials/git-for-labs/): "Having a GitHub repo for your lab makes it easy to keep track of collaborative and personal projects - all files necessary for certain analyses can be held together and people can add in their code, graphs, etc. as the projects develop. Each file on GitHub has a history, making it easy to explore the changes that occurred to it at different time points. You can review other people’s code, add comments on certain lines or the overall document, and suggest changes. For collaborative projects, GitHub allows you to assign tasks to different users, making it clear who is responsible for which part of the analysis. You can also ask certain users to review your code. Overall, GitHub presents a great opportunity to have an online back up copy of your work, whilst also doing version control, and it can also make it easier to discuss code, as well as write and edit code collaboratively."
+
+**Sign up for a free GitHub account here:** https://github.com/
 
 ### Other geodata repositories
 
-Check out __ section (link) and this list of geodata repositories to decide where you might want to publish your data.
+Check out the Geodata repositories section of this wiki (https://github.com/delft-dh/DDH-Community-Data-Wiki/wiki/S1-Collect-GeoData#geodata-repositories) and this list of geodata repositories to decide where you might want to publish your data.
 
 ## Metadata preparation
 
