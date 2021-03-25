@@ -1,16 +1,10 @@
-As stated by Phil Hurvitz at the University of Washington: "Whereas desktop GIS packages are great applications for exploratory spatial data analysis and generation of map graphics, with typical work flows they are limited for scientific research. **If you can’t remember, reproduce, or clearly communicate your methodology, then what you are doing cannot be technically called “research.”**" See more in [this presentation.](http://staff.washington.edu/phurvitz/r_gis/images/reproducible_gis_csde_20200212a.pptm)
-
-A huge advantage for GIS-by-programming is that you have your entire workflow recorded in a central document - a document that can be re-run at will. Below are lists of some of the key spatial packages for Python and R. 
+Below are lists of some of the key spatial packages for quantitative and qualitative analysis of geospatial data in Python and R. 
 
 * To get started with GIS analysis in Python, see [Software Carpentries](https://carpentries-incubator.github.io/geospatial-python/04-geo-landscape/index.html)
 * For an introduction to GIS analysis in R, see Phil Hurvitz's [free online course from the University of Washington](http://staff.washington.edu/phurvitz/r_gis/)
 * To follow a hands-on course analyzing GIS sample data, see [this micro-course on geospatial analysis from Kaggle](https://www.kaggle.com/alexisbcook/geospatial-learn-course-data/notebooks)
 * To hone your skills working with the pandas data science library in Python, follow [this micro-course on pandas from Kaggle](https://www.kaggle.com/learn/pandas)
-* https://programminghistorian.org/en/lessons/geospatial-data-analysis
-
-## Qualitative Analysis
-
-## Quantitative Analysis
+* [Using Geospatial Data to Inform Historical Research in R](https://programminghistorian.org/en/lessons/geospatial-data-analysis)
 
 ### Nearest neighbor
 https://medium.com/@tjukanov/searching-for-isolation-with-gis-eea3f2ab7d99
