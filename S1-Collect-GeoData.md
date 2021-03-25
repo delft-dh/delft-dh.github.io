@@ -88,22 +88,3 @@ From [researchdata.4tu.nl](https://researchdata.4tu.nl/en/about/organisation/): 
 ### Zenodo
 
 From [zenodo.org](https://zenodo.org/): "Built and developed by researchers, to ensure that everyone can join in Open Science. The OpenAIRE project, in the vanguard of the open access and open data movements in Europe was commissioned by the EC to support their nascent Open Data policy by providing a catch-all repository for EC funded research. CERN, an OpenAIRE partner and pioneer in open source, open access and open data, provided this capability and Zenodo was launched in May 2013."
-
-
-## Organise and store data in spatial databases
-
-### PostGIS
-
-
-### Postgres
-
-### File organisation
-
-## Data Version Control (DVC)
-
-## Preview data
-
-## Cross data
-
-## Tutorials
-* https://digital-geography.com/vessel-tracking-the-python-way/
