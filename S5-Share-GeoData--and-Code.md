@@ -43,7 +43,7 @@ Check out the [Geodata repositories](https://github.com/delft-dh/DDH-Community-D
 
 ## Metadata preparation
 
-Check out the ___ section (link) for information and links to more information on domain standards for metadata and documentation. 
+Check out the [Disciplinary Metadata](https://github.com/delft-dh/DDH-Community-Data-Wiki/wiki/0.1-Considerations-for-FAIR-research#disciplinary-metadata) section of this wiki for information and links to more information on domain standards for metadata and documentation. 
 
 
 
