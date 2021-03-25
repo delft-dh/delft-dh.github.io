@@ -27,10 +27,10 @@ Need open data? Ask for it! Post your queries here: https://opendata.stackexchan
 
 From [digital-geography.com](https://digital-geography.com/digital-earth-potential-data-brokers/): "Recently there has been a wide spread adoption of Open Access or Open Data policies for environmental and Earth Observation data. With these developments we are seeing a paradigm shift towards a data-centric Environmental Observation Web, where data is semantically enriched thus enabling the consumption, production and reuse of environmental observations in cross-domain applications. We are also seeing the proliferation of data portals and catalogues:
 
-* http://www.geoportal.org/ : The Group on Earth Observations portal (GEOSS).
-* http://marine.copernicus.eu/ : The EU Commission portal for marine modelling data.
-* https://www.data.gov/ : The Open Data portal of the US Government.
-* https://scihub.copernicus.eu/dhus/#/home : The Open Access data portal of the European Space Agency"
+* [The Group on Earth Observations portal (GEOSS)](http://www.geoportal.org/)
+* [The EU Commission portal for marine modelling data](http://marine.copernicus.eu/)
+* [The Open Data portal of the US Government](https://www.data.gov/)
+* [The Open Access data portal of the European Space Agency](https://scihub.copernicus.eu/dhus/#/home)
 
 
 ### CBS Open Data
@@ -45,19 +45,55 @@ Resources:
 ### Kaggle
 From [kaggle.com](https://www.kaggle.com/datasets): "Kaggle offers a no-setup, customizable, Jupyter Notebooks environment. Access free GPUs and a huge repository of community published data & code."
 
-
 ## Geodata repositories 
 
+For a large list of geospatial data sources, see [here](https://en.wikipedia.org/wiki/List_of_GIS_data_sources).
+
+### Natural Earth 
+
+From [naturalearthdata.com](https://www.naturalearthdata.com/): "Natural Earth is a public domain map dataset available at 1:10 million (1 cm = 100 km), 1:50 million, and 1:110 million map scales. Natural Earth's data set contains integrated vector and raster mapping data." 
+
+### UNEP Environmental Data Explorer
+
+[geodata.grid.unep.ch](http://geodata.grid.unep.ch/): "Includes global forest cover, global potential evapotranspiration, global average monthly temperatures, dams, watershed boundaries, and much more. Use the advanced search to select geospatial data sets. Provided by the United Nations Environment Programme."
+
+### OpenTopography
+
+[opentopography.org](https://opentopography.org/): "OpenTopography facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources. Find high-resolution, Earth science-based, topography data, and related tools and resources. Available as dense point clouds and DEMs."
+
+### World Bank Geodata
+
+[sourceforge.net](https://sourceforge.net/projects/googleworldbank/): "A wide range of World Bank datasets: schooling and financial data, etc."
+
+### Gridded Population of the World
+
+[columbia.edu](https://sedac.ciesin.columbia.edu/data/collection/gpw-v4): "Dataset from NASA's Socioeconomic Data and Applications Center includes raw population, population density, historic, current and predicted."
+
+### OpenStreetMap
+
+[openstreetmap.org](https://www.openstreetmap.org/#map=8/52.154/5.295): "Crowdsourced data for the whole world including most things you'd find on a standard local paper map: points of interest, buildings, roads and road names, ferry routes etc."
+
+### World Port Index
+
+[National (US) Geospatial-Intelligence Agency - Maritime Safety Office](https://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&_pageLabel=msi_portal_page_62&pubCode=0015): "Contains the location and physical characteristics of, and the facilities and services offered by major ports and terminals worldwide, from the United States National Geospatial-Intelligence Agency."
+
+### OpenLandMap
+
+[openlandmap.org](https://openlandmap.org/#/?base=Stamen%20(OpenStreetMap)&center=39.0000,25.0000&zoom=4&opacity=80&layer=lcv_land.cover_esacci.lc.l4_c&time=2018): "World's environmental data representing land mask (land cover, vegetation, soil, climate, terrain data and similar)"
+
 ### 4TU.ResearchData
+
+From [researchdata.4tu.nl](https://researchdata.4tu.nl/en/about/organisation/): "4TU.ResearchData is an international data repository for science, engineering and design. Its services include curation, sharing, long-term access and preservation of research datasets. These services are available to anyone around the world. In addition, 4TU.ResearchData also offers training and resources to researchers to support them in making research data findable, accessible, interoperable and reproducible (FAIR)."
+
+### Zenodo
+
+From [zenodo.org](https://zenodo.org/): "Built and developed by researchers, to ensure that everyone can join in Open Science. The OpenAIRE project, in the vanguard of the open access and open data movements in Europe was commissioned by the EC to support their nascent Open Data policy by providing a catch-all repository for EC funded research. CERN, an OpenAIRE partner and pioneer in open source, open access and open data, provided this capability and Zenodo was launched in May 2013."
+
 
 ## Organise and store data in spatial databases
 
 ### PostGIS
-https://medium.com/@tjukanov/why-should-you-care-about-postgis-a-gentle-introduction-to-spatial-databases-9eccd26bc42b
 
-https://digital-geography.com/colaborative-working-in-postgis/
-
-https://digital-geography.com/short-note-export-layers-to-postgis-with-processing/
 
 ### Postgres
 
