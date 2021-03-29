@@ -1,3 +1,4 @@
+# Research and Data management roles
 Researchers are increasingly using data science for all kinds of research purposes. They also generate data, publish it and frequently also process it in some form. In many cases data is processed using some kind of scripting, programming from beginners level to advanced levels. It is in this context related to data management, analysis, publishing and making the analysis reproducible researchers can benefit from FAIR practices for data and software.
 
 ## Common roles and activities related to research data management and software

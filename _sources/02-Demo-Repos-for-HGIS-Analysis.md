@@ -1,4 +1,5 @@
-# 1. Urban population density by built area
+# DCC Demo repository
+## 1. Urban population density by built area
 
 An urbanist interested in space logistics calculates a more accurate value for urban population density based on the total area of built environment within a municipality. The total area of a city includes water, roads, sidewalks etc., but in this case, the researcher is interested in only the area occupied by buildings, i.e., the total ground floor area of all buildings in the city. They use data from the PDOK (built area) and CBS (population size) to find a value of population density per built area. They must convert the PDOK data, which is offered in .gml format, into geoJSON prior to conducting their analysis using Python in a Jupyter notebook.
 

@@ -1,4 +1,5 @@
-# Data Conversion
+# Preparing GeoData
+## Data Conversion
 Converting data types can be very handy. For example, in order to use GML data in Python with the geopandas library, we need to convert it to GeoJSON format.
 
 Many existing file formats were invented by GIS software developers, often in a closed-source environment. This led to the large number of formats on offer today, and considerable problems transferring data between software environments. [The Geospatial Data Abstraction Library (GDAL)](https://gdal.org/) is an open-source answer to this issue.

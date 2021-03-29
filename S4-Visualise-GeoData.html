@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Making maps &#8212; Delft Digital Humanities Organization Website</title>
+    <title>Visualizing GeoData &#8212; Delft Digital Humanities Organization Website</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -55,8 +55,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Data and Code Repositories" href="S5-Share-GeoData--and-Code.html" />
-    <link rel="prev" title="Learning how to code" href="S3-Analyse-GeoData.html" />
+    <link rel="next" title="Sharing and publishing GeoData" href="S5-Share-GeoData--and-Code.html" />
+    <link rel="prev" title="Analyzing GeoData" href="S3-Analyse-GeoData.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -86,53 +86,53 @@
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
     <ul class="current nav sidenav_l1">
  <li class="toctree-l1">
+  <a class="reference internal" href="01-Considerations-for-FAIR-research.html">
+   FAIR Research
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html">
-   1. Urban population density by built area
+   DCC Demo repository
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
-   The Open Source Geospatial Foundation
+   Open Source Tools
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="04-Reproducible-Research.html">
-   Reproducibility
+   Reproducible Research
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
-   Common roles and activities related to research data management and software
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="README.html">
-   About the DDH Community Data Wiki
+   Research and Data management roles
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S1-Collect-GeoData.html">
-   Geodata Open Data sources
+   Collecting GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S2-Prepare-GeoData.html">
-   Data Conversion
+   Preparing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S3-Analyse-GeoData.html">
-   Learning how to code
+   Analyzing GeoData
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Making maps
+   Visualizing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S5-Share-GeoData--and-Code.html">
-   Data and Code Repositories
+   Sharing and publishing GeoData
   </a>
  </li>
  <li class="toctree-l1">
@@ -229,36 +229,43 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#popular-python-libraries-for-data-visualisation">
-   Popular Python libraries for data visualisation
+  <a class="reference internal nav-link" href="#making-maps">
+   Making maps
   </a>
   <ul class="nav section-nav flex-column">
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#ipyleaflet">
-     Ipyleaflet
+    <a class="reference internal nav-link" href="#popular-python-libraries-for-data-visualisation">
+     Popular Python libraries for data visualisation
     </a>
+    <ul class="nav section-nav flex-column">
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#ipyleaflet">
+       Ipyleaflet
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#folium">
+       Folium
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#matplotlib">
+       Matplotlib
+      </a>
+     </li>
+     <li class="toc-h4 nav-item toc-entry">
+      <a class="reference internal nav-link" href="#plotly">
+       Plotly
+      </a>
+     </li>
+    </ul>
    </li>
    <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#folium">
-     Folium
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#matplotlib">
-     Matplotlib
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#plotly">
-     Plotly
+    <a class="reference internal nav-link" href="#bokeh">
+     Bokeh
     </a>
    </li>
   </ul>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#bokeh">
-   Bokeh
-  </a>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#inspiration-and-precedents-for-geospatial-data-visualisation">
@@ -276,23 +283,25 @@
         
               <div>
                 
-  <div class="section" id="making-maps">
-<h1>Making maps<a class="headerlink" href="#making-maps" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="visualizing-geodata">
+<h1>Visualizing GeoData<a class="headerlink" href="#visualizing-geodata" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="making-maps">
+<h2>Making maps<a class="headerlink" href="#making-maps" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="popular-python-libraries-for-data-visualisation">
-<h2>Popular Python libraries for data visualisation<a class="headerlink" href="#popular-python-libraries-for-data-visualisation" title="Permalink to this headline">¶</a></h2>
+<h3>Popular Python libraries for data visualisation<a class="headerlink" href="#popular-python-libraries-for-data-visualisation" title="Permalink to this headline">¶</a></h3>
 <div class="section" id="ipyleaflet">
-<h3>Ipyleaflet<a class="headerlink" href="#ipyleaflet" title="Permalink to this headline">¶</a></h3>
+<h4>Ipyleaflet<a class="headerlink" href="#ipyleaflet" title="Permalink to this headline">¶</a></h4>
 <p>From <a class="reference external" href="https://ipyleaflet.readthedocs.io/en/latest/usage.html">ipyleaflet.readthedocs.io</a>: “ipyleaflet is an interactive widgets library, it is based on ipywidgets. This means that everything in ipyleaflet (e.g. the Map, TileLayers, Markers…) is interactive: you can dynamically update attributes from Python or from the Notebook interface.” It extends the Javascript library <a class="reference external" href="https://leafletjs.com/">Leaflet.js</a> (the leading open-source JavaScript library for mobile-friendly interactive maps) to be able to work in Python.</p>
 <p>To install ipyleaflet, open Anaconda prompt and type: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">conda-forge</span> <span class="pre">ipyleaflet</span></code></p>
 </div>
 <div class="section" id="folium">
-<h3>Folium<a class="headerlink" href="#folium" title="Permalink to this headline">¶</a></h3>
+<h4>Folium<a class="headerlink" href="#folium" title="Permalink to this headline">¶</a></h4>
 <p>From <a class="reference external" href="https://python-visualization.github.io/folium/">pythom-visualization.github.ip/folium</a>: “folium builds on the data wrangling strengths of the Python ecosystem and the mapping strengths of the leaflet.js library. Manipulate your data in Python, then visualize it in on a Leaflet map via folium. folium makes it easy to visualize data that’s been manipulated in Python on an interactive leaflet map. It enables both the binding of data to a map for choropleth visualizations as well as passing rich vector/raster/HTML visualizations as markers on the map.</p>
 <p>The library has a number of built-in tilesets from OpenStreetMap, Mapbox, and Stamen, and supports custom tilesets with Mapbox or Cloudmade API keys. folium supports both Image, Video, GeoJSON and TopoJSON overlays.”</p>
 <p>To install folium, open Anaconda prompt and type: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">folium</span> <span class="pre">-c</span> <span class="pre">conda-forge</span></code></p>
 </div>
 <div class="section" id="matplotlib">
-<h3>Matplotlib<a class="headerlink" href="#matplotlib" title="Permalink to this headline">¶</a></h3>
+<h4>Matplotlib<a class="headerlink" href="#matplotlib" title="Permalink to this headline">¶</a></h4>
 <p>From <a class="reference external" href="https://matplotlib.org/">matplotlib.org</a>: “Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python. Matplotlib makes easy things easy and hard things possible.”</p>
 <p>Matplotlib comes pre-installed when you install Python using Anaconda.</p>
 <p><strong>Resources:</strong></p>
@@ -301,7 +310,7 @@
 </ul>
 </div>
 <div class="section" id="plotly">
-<h3>Plotly<a class="headerlink" href="#plotly" title="Permalink to this headline">¶</a></h3>
+<h4>Plotly<a class="headerlink" href="#plotly" title="Permalink to this headline">¶</a></h4>
 <p>From <a class="reference external" href="https://plotly.com/python/">plotly.com/python</a>: “Plotly’s Python graphing library makes interactive, publication-quality graphs. Examples of how to make line plots, scatter plots, area charts, bar charts, error bars, box plots, histograms, heatmaps, subplots, multiple-axes, polar charts, and bubble charts. <a class="reference external" href="http://Plotly.py">Plotly.py</a> is free and open source and you can view the source, report issues or contribute on <a class="reference external" href="https://github.com/plotly/plotly.py">GitHub</a>.”</p>
 <p>To install plotly, open Anaconda prompt and type: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">plotly</span> <span class="pre">plotly</span></code></p>
 <p><strong>Resources:</strong></p>
@@ -311,7 +320,7 @@
 </div>
 </div>
 <div class="section" id="bokeh">
-<h2>Bokeh<a class="headerlink" href="#bokeh" title="Permalink to this headline">¶</a></h2>
+<h3>Bokeh<a class="headerlink" href="#bokeh" title="Permalink to this headline">¶</a></h3>
 <p>From <a class="reference external" href="https://docs.bokeh.org/en/latest/index.html">docs.bokeh.org</a>: “Bokeh is a Python library for creating interactive visualizations for modern web browsers. It helps you build beautiful graphics, ranging from simple plots to complex dashboards with streaming datasets. With Bokeh, you can create JavaScript-powered visualizations without writing any JavaScript yourself.”</p>
 <p>To install bokeh, open Anaconda prompt and type: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">bokeh</span></code></p>
 <p><strong>Resources:</strong></p>
@@ -319,6 +328,7 @@
 <li><p><a class="reference external" href="https://docs.bokeh.org/en/latest/docs/first_steps.html#first-steps">Getting started using Bokeh</a></p></li>
 <li><p><a class="reference external" href="https://mybinder.org/v2/gh/bokeh/bokeh-notebooks/master?filepath=tutorial%2F00%20-%20Introduction%20and%20Setup.ipynb">Hands-on Bokeh tutorials</a></p></li>
 </ul>
+</div>
 </div>
 <div class="section" id="inspiration-and-precedents-for-geospatial-data-visualisation">
 <h2>Inspiration and precedents for geospatial data visualisation<a class="headerlink" href="#inspiration-and-precedents-for-geospatial-data-visualisation" title="Permalink to this headline">¶</a></h2>
@@ -356,8 +366,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="S3-Analyse-GeoData.html" title="previous page">Learning how to code</a>
-    <a class='right-next' id="next-link" href="S5-Share-GeoData--and-Code.html" title="next page">Data and Code Repositories</a>
+    <a class='left-prev' id="prev-link" href="S3-Analyse-GeoData.html" title="previous page">Analyzing GeoData</a>
+    <a class='right-next' id="next-link" href="S5-Share-GeoData--and-Code.html" title="next page">Sharing and publishing GeoData</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

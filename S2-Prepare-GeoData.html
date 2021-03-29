@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data Conversion &#8212; Delft Digital Humanities Organization Website</title>
+    <title>Preparing GeoData &#8212; Delft Digital Humanities Organization Website</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -55,8 +55,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Learning how to code" href="S3-Analyse-GeoData.html" />
-    <link rel="prev" title="Geodata Open Data sources" href="S1-Collect-GeoData.html" />
+    <link rel="next" title="Analyzing GeoData" href="S3-Analyse-GeoData.html" />
+    <link rel="prev" title="Collecting GeoData" href="S1-Collect-GeoData.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -86,53 +86,53 @@
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
     <ul class="current nav sidenav_l1">
  <li class="toctree-l1">
+  <a class="reference internal" href="01-Considerations-for-FAIR-research.html">
+   FAIR Research
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html">
-   1. Urban population density by built area
+   DCC Demo repository
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
-   The Open Source Geospatial Foundation
+   Open Source Tools
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="04-Reproducible-Research.html">
-   Reproducibility
+   Reproducible Research
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
-   Common roles and activities related to research data management and software
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="README.html">
-   About the DDH Community Data Wiki
+   Research and Data management roles
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S1-Collect-GeoData.html">
-   Geodata Open Data sources
+   Collecting GeoData
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Data Conversion
+   Preparing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S3-Analyse-GeoData.html">
-   Learning how to code
+   Analyzing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S4-Visualise-GeoData.html">
-   Making maps
+   Visualizing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S5-Share-GeoData--and-Code.html">
-   Data and Code Repositories
+   Sharing and publishing GeoData
   </a>
  </li>
  <li class="toctree-l1">
@@ -229,6 +229,11 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#data-conversion">
+   Data Conversion
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#data-cleaning">
    Data cleaning
   </a>
@@ -286,8 +291,10 @@
         
               <div>
                 
-  <div class="section" id="data-conversion">
-<h1>Data Conversion<a class="headerlink" href="#data-conversion" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="preparing-geodata">
+<h1>Preparing GeoData<a class="headerlink" href="#preparing-geodata" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="data-conversion">
+<h2>Data Conversion<a class="headerlink" href="#data-conversion" title="Permalink to this headline">¶</a></h2>
 <p>Converting data types can be very handy. For example, in order to use GML data in Python with the geopandas library, we need to convert it to GeoJSON format.</p>
 <p>Many existing file formats were invented by GIS software developers, often in a closed-source environment. This led to the large number of formats on offer today, and considerable problems transferring data between software environments. <a class="reference external" href="https://gdal.org/">The Geospatial Data Abstraction Library (GDAL)</a> is an open-source answer to this issue.</p>
 <p>From <a class="reference external" href="https://carpentries-incubator.github.io/geospatial-python/03-crs/index.html">Geospatial-Python Software Carpentry</a>: “GDAL is a set of software tools that translate between almost any geospatial format in common use today (and some not so common ones). GDAL also contains tools for editing and manipulating both raster and vector files, including reprojecting data to different CRSs. GDAL can be used as a standalone command-line tool, or built in to other GIS software. Several open-source GIS programs use GDAL for all file import/export operations.”</p>
@@ -296,6 +303,7 @@
 </pre></div>
 </div>
 <p>For more examples, see <a class="reference external" href="https://janakiev.com/slides/ogr-presentation/#/">this presentation</a> and read the ogr2ogr page in the GDAL documentation <a class="reference external" href="https://gdal.org/programs/ogr2ogr.html">here</a>.</p>
+</div>
 <div class="section" id="data-cleaning">
 <h2>Data cleaning<a class="headerlink" href="#data-cleaning" title="Permalink to this headline">¶</a></h2>
 <p>From <a class="reference external" href="https://datacarpentry.org/OpenRefine-ecology-lesson/">datacarpentry.org</a>: “A part of the data workflow is preparing the data for analysis. Some of this involves data cleaning, where errors in the data are identified and corrected or formatting made consistent. This step must be taken with the same care and attention to reproducibility as the analysis.</p>
@@ -375,8 +383,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="S1-Collect-GeoData.html" title="previous page">Geodata Open Data sources</a>
-    <a class='right-next' id="next-link" href="S3-Analyse-GeoData.html" title="next page">Learning how to code</a>
+    <a class='left-prev' id="prev-link" href="S1-Collect-GeoData.html" title="previous page">Collecting GeoData</a>
+    <a class='right-next' id="next-link" href="S3-Analyse-GeoData.html" title="next page">Analyzing GeoData</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

@@ -1,4 +1,5 @@
-# Making maps
+# Visualizing GeoData
+## Making maps
 
 ### Popular Python libraries for data visualisation
 

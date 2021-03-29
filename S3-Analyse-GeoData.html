@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Learning how to code &#8212; Delft Digital Humanities Organization Website</title>
+    <title>Analyzing GeoData &#8212; Delft Digital Humanities Organization Website</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -55,8 +55,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Making maps" href="S4-Visualise-GeoData.html" />
-    <link rel="prev" title="Data Conversion" href="S2-Prepare-GeoData.html" />
+    <link rel="next" title="Visualizing GeoData" href="S4-Visualise-GeoData.html" />
+    <link rel="prev" title="Preparing GeoData" href="S2-Prepare-GeoData.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -86,53 +86,53 @@
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
     <ul class="current nav sidenav_l1">
  <li class="toctree-l1">
+  <a class="reference internal" href="01-Considerations-for-FAIR-research.html">
+   FAIR Research
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html">
-   1. Urban population density by built area
+   DCC Demo repository
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
-   The Open Source Geospatial Foundation
+   Open Source Tools
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="04-Reproducible-Research.html">
-   Reproducibility
+   Reproducible Research
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
-   Common roles and activities related to research data management and software
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="README.html">
-   About the DDH Community Data Wiki
+   Research and Data management roles
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S1-Collect-GeoData.html">
-   Geodata Open Data sources
+   Collecting GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S2-Prepare-GeoData.html">
-   Data Conversion
+   Preparing GeoData
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Learning how to code
+   Analyzing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S4-Visualise-GeoData.html">
-   Making maps
+   Visualizing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S5-Share-GeoData--and-Code.html">
-   Data and Code Repositories
+   Sharing and publishing GeoData
   </a>
  </li>
  <li class="toctree-l1">
@@ -229,14 +229,21 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#here-are-some-resources-that-can-help-you-get-started">
-   Here are some resources that can help you get started:
+  <a class="reference internal nav-link" href="#learning-how-to-code">
+   Learning how to code
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#here-are-some-tutorials-that-cover-specific-types-of-analyses">
-   Here are some tutorials that cover specific types of analyses
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#here-are-some-resources-that-can-help-you-get-started">
+     Here are some resources that can help you get started:
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#here-are-some-tutorials-that-cover-specific-types-of-analyses">
+     Here are some tutorials that cover specific types of analyses
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#python-packages-for-geospatial-analysis">
@@ -341,11 +348,13 @@
         
               <div>
                 
-  <div class="section" id="learning-how-to-code">
-<h1>Learning how to code<a class="headerlink" href="#learning-how-to-code" title="Permalink to this headline">¶</a></h1>
-<p>Learning how to work in a programming language like Python or R requires commitment and time to master. However, because these are highly useful and open-source tools that have applications in a broad array of disciplines, there is a plethora of knowledge available to help get started and troubleshoot challenges you run into. Generally speaking, you will find the information you need by searching for <the name of the library you want to use> + “documentation”, or by searching a specific question on community forums like Stack Overflow.</p>
+  <div class="section" id="analyzing-geodata">
+<h1>Analyzing GeoData<a class="headerlink" href="#analyzing-geodata" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="learning-how-to-code">
+<h2>Learning how to code<a class="headerlink" href="#learning-how-to-code" title="Permalink to this headline">¶</a></h2>
+<p>Learning how to work in a programming language like Python or R requires commitment and time to master. However, because these are highly useful and open-source tools that have applications in a broad array of disciplines, there is a plethora of knowledge available to help get started and troubleshoot challenges you run into. Generally speaking, you will find the information you need by searching for the name of the “library” you want to use + “documentation”, or by searching a specific question on community forums like Stack Overflow.</p>
 <div class="section" id="here-are-some-resources-that-can-help-you-get-started">
-<h2>Here are some resources that can help you get started:<a class="headerlink" href="#here-are-some-resources-that-can-help-you-get-started" title="Permalink to this headline">¶</a></h2>
+<h3>Here are some resources that can help you get started:<a class="headerlink" href="#here-are-some-resources-that-can-help-you-get-started" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p>To get started with GIS analysis in Python, see <a class="reference external" href="https://carpentries-incubator.github.io/geospatial-python/04-geo-landscape/index.html">Software Carpentries</a></p></li>
 <li><p>For an introduction to GIS analysis in R, see Phil Hurvitz’s <a class="reference external" href="http://staff.washington.edu/phurvitz/r_gis/">free online course from the University of Washington</a></p></li>
@@ -356,7 +365,7 @@
 </ul>
 </div>
 <div class="section" id="here-are-some-tutorials-that-cover-specific-types-of-analyses">
-<h2>Here are some tutorials that cover specific types of analyses<a class="headerlink" href="#here-are-some-tutorials-that-cover-specific-types-of-analyses" title="Permalink to this headline">¶</a></h2>
+<h3>Here are some tutorials that cover specific types of analyses<a class="headerlink" href="#here-are-some-tutorials-that-cover-specific-types-of-analyses" title="Permalink to this headline">¶</a></h3>
 <ul class="simple">
 <li><p><a class="reference external" href="https://medium.com/&#64;tjukanov/searching-for-isolation-with-gis-eea3f2ab7d99">Nearest neighbor</a></p></li>
 <li><p><a class="reference external" href="https://medium.com/&#64;tjukanov/places-and-their-names-observations-from-11-million-place-names-8ea34cf61da4">Text analysis</a></p></li>
@@ -364,6 +373,7 @@
 <li><p><a class="reference external" href="https://digital-geography.com/working-with-clusters-in-leaflet-increasing-useability/">Cluster analysis</a></p></li>
 <li><p><a class="reference external" href="https://medium.com/tech-carnot/plotly-datashader-visualizing-large-geospatial-datasets-bea27b9d7824">Visualizing big geodata</a></p></li>
 </ul>
+</div>
 </div>
 <div class="section" id="python-packages-for-geospatial-analysis">
 <h2>Python packages for geospatial analysis<a class="headerlink" href="#python-packages-for-geospatial-analysis" title="Permalink to this headline">¶</a></h2>
@@ -477,8 +487,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="S2-Prepare-GeoData.html" title="previous page">Data Conversion</a>
-    <a class='right-next' id="next-link" href="S4-Visualise-GeoData.html" title="next page">Making maps</a>
+    <a class='left-prev' id="prev-link" href="S2-Prepare-GeoData.html" title="previous page">Preparing GeoData</a>
+    <a class='right-next' id="next-link" href="S4-Visualise-GeoData.html" title="next page">Visualizing GeoData</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

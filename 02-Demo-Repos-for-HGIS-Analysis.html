@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1. Urban population density by built area &#8212; Delft Digital Humanities Organization Website</title>
+    <title>DCC Demo repository &#8212; Delft Digital Humanities Organization Website</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -55,8 +55,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="The Open Source Geospatial Foundation" href="03-Open-Source-Tools-and-Software.html" />
-    <link rel="prev" title="What is FAIR data and software?" href="01-Considerations-for-FAIR-research.html" />
+    <link rel="next" title="Open Source Tools" href="03-Open-Source-Tools-and-Software.html" />
+    <link rel="prev" title="FAIR Research" href="01-Considerations-for-FAIR-research.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -85,54 +85,54 @@
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
     <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="01-Considerations-for-FAIR-research.html">
+   FAIR Research
+  </a>
+ </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   1. Urban population density by built area
+   DCC Demo repository
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
-   The Open Source Geospatial Foundation
+   Open Source Tools
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="04-Reproducible-Research.html">
-   Reproducibility
+   Reproducible Research
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
-   Common roles and activities related to research data management and software
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="README.html">
-   About the DDH Community Data Wiki
+   Research and Data management roles
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S1-Collect-GeoData.html">
-   Geodata Open Data sources
+   Collecting GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S2-Prepare-GeoData.html">
-   Data Conversion
+   Preparing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S3-Analyse-GeoData.html">
-   Learning how to code
+   Analyzing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S4-Visualise-GeoData.html">
-   Making maps
+   Visualizing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S5-Share-GeoData--and-Code.html">
-   Data and Code Repositories
+   Sharing and publishing GeoData
   </a>
  </li>
  <li class="toctree-l1">
@@ -229,6 +229,11 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#urban-population-density-by-built-area">
+   1. Urban population density by built area
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#wwii-bombings-heat-map">
    2. WWII bombings heat map
   </a>
@@ -276,8 +281,10 @@
         
               <div>
                 
-  <div class="section" id="urban-population-density-by-built-area">
-<h1>1. Urban population density by built area<a class="headerlink" href="#urban-population-density-by-built-area" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="dcc-demo-repository">
+<h1>DCC Demo repository<a class="headerlink" href="#dcc-demo-repository" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="urban-population-density-by-built-area">
+<h2>1. Urban population density by built area<a class="headerlink" href="#urban-population-density-by-built-area" title="Permalink to this headline">¶</a></h2>
 <p>An urbanist interested in space logistics calculates a more accurate value for urban population density based on the total area of built environment within a municipality. The total area of a city includes water, roads, sidewalks etc., but in this case, the researcher is interested in only the area occupied by buildings, i.e., the total ground floor area of all buildings in the city. They use data from the PDOK (built area) and CBS (population size) to find a value of population density per built area. They must convert the PDOK data, which is offered in .gml format, into geoJSON prior to conducting their analysis using Python in a Jupyter notebook.</p>
 <p><strong>Link to Repository:</strong> <a class="reference external" href="https://github.com/delft-dh/DCC-Demo-Population-Density-by-Built-Area">https://github.com/delft-dh/DCC-Demo-Population-Density-by-Built-Area</a></p>
 <p>Concepts illustrated:</p>
@@ -294,6 +301,7 @@
 <li><p>ogr2ogr for data conversion</p></li>
 <li><p>Jupyter notebooks</p></li>
 </ul>
+</div>
 <div class="section" id="wwii-bombings-heat-map">
 <h2>2. WWII bombings heat map<a class="headerlink" href="#wwii-bombings-heat-map" title="Permalink to this headline">¶</a></h2>
 <p>A historian studying infrastructure damaged in WWII visualises the volume of bombs that landed in countries throughout the world during the war. Data are represented in a heatmap. All (python) code is available and reproducible from a Jupyter notebook.</p>
@@ -381,8 +389,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="01-Considerations-for-FAIR-research.html" title="previous page">What is FAIR data and software?</a>
-    <a class='right-next' id="next-link" href="03-Open-Source-Tools-and-Software.html" title="next page">The Open Source Geospatial Foundation</a>
+    <a class='left-prev' id="prev-link" href="01-Considerations-for-FAIR-research.html" title="previous page">FAIR Research</a>
+    <a class='right-next' id="next-link" href="03-Open-Source-Tools-and-Software.html" title="next page">Open Source Tools</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">

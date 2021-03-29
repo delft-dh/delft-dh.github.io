@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Data and Code Repositories &#8212; Delft Digital Humanities Organization Website</title>
+    <title>Sharing and publishing GeoData &#8212; Delft Digital Humanities Organization Website</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -56,7 +56,7 @@
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
     <link rel="next" title="Contribute to this page to make it better!" href="_Footer.html" />
-    <link rel="prev" title="Making maps" href="S4-Visualise-GeoData.html" />
+    <link rel="prev" title="Visualizing GeoData" href="S4-Visualise-GeoData.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -86,53 +86,53 @@
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
     <ul class="current nav sidenav_l1">
  <li class="toctree-l1">
+  <a class="reference internal" href="01-Considerations-for-FAIR-research.html">
+   FAIR Research
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html">
-   1. Urban population density by built area
+   DCC Demo repository
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
-   The Open Source Geospatial Foundation
+   Open Source Tools
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="04-Reproducible-Research.html">
-   Reproducibility
+   Reproducible Research
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
-   Common roles and activities related to research data management and software
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="README.html">
-   About the DDH Community Data Wiki
+   Research and Data management roles
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S1-Collect-GeoData.html">
-   Geodata Open Data sources
+   Collecting GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S2-Prepare-GeoData.html">
-   Data Conversion
+   Preparing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S3-Analyse-GeoData.html">
-   Learning how to code
+   Analyzing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S4-Visualise-GeoData.html">
-   Making maps
+   Visualizing GeoData
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Data and Code Repositories
+   Sharing and publishing GeoData
   </a>
  </li>
  <li class="toctree-l1">
@@ -229,34 +229,41 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#tu-researchdata">
-   4TU.ResearchData
+  <a class="reference internal nav-link" href="#data-and-code-repositories">
+   Data and Code Repositories
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#dataversenl">
-   DataVerseNL
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#zenodo">
-   Zenodo
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#tu-delft-gitlab-code-only">
-   TU Delft GitLab (code only)
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#github-code-only">
-   GitHub (code only)
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#other-geodata-repositories">
-   Other geodata repositories
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tu-researchdata">
+     4TU.ResearchData
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dataversenl">
+     DataVerseNL
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#zenodo">
+     Zenodo
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tu-delft-gitlab-code-only">
+     TU Delft GitLab (code only)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#github-code-only">
+     GitHub (code only)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#other-geodata-repositories">
+     Other geodata repositories
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#metadata-preparation">
@@ -274,42 +281,45 @@
         
               <div>
                 
-  <div class="section" id="data-and-code-repositories">
-<h1>Data and Code Repositories<a class="headerlink" href="#data-and-code-repositories" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="sharing-and-publishing-geodata">
+<h1>Sharing and publishing GeoData<a class="headerlink" href="#sharing-and-publishing-geodata" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="data-and-code-repositories">
+<h2>Data and Code Repositories<a class="headerlink" href="#data-and-code-repositories" title="Permalink to this headline">¶</a></h2>
 <p>Data repositories, like 4TU.ResearchData or Zenodo and code repositories, like GitHub or GitLab are the best way to share data and code.  From <a class="reference external" href="https://community.data.4tu.nl/2020/11/21/leons-swan-song/">community.data.4tu.nl</a>: “Datasets should be recognised as a primary research output, including those that are not linked to an article.”</p>
 <div class="section" id="tu-researchdata">
-<h2>4TU.ResearchData<a class="headerlink" href="#tu-researchdata" title="Permalink to this headline">¶</a></h2>
+<h3>4TU.ResearchData<a class="headerlink" href="#tu-researchdata" title="Permalink to this headline">¶</a></h3>
 <p>From <a class="reference external" href="https://researchdata.4tu.nl/en/about/organisation/">researchdata.4tu.nl</a>: “4TU.ResearchData is an international data repository for science, engineering and design. Its services include curation, sharing, long-term access and preservation of research datasets. These services are available to anyone around the world. In addition, 4TU.ResearchData also offers training and resources to researchers to support them in making research data findable, accessible, interoperable and reproducible (FAIR).</p>
 <p>To ensure accurate citation and to ensure that other researchers will be able to retrieve your dataset in the future, datasets must be equipped with one or more identifiers (preferably a persistent identifier). Every dataset in 4TU.ResearchData archive is provided with a unique, persistent Digital Object Identifier (DOI), which can be linked to or cited in publications.</p>
 <p>While you are writing your article, you may reserve a DOI for the data to which you wish to link and that you plan to store in an archive in 4TU.ResearchData. The DOI will be activated once your dataset has been published.”</p>
 <p><strong>Create an account and log in here:</strong> <a class="reference external" href="https://researchdata.4tu.nl/en/log-in-upload-data/about-log-in/">https://researchdata.4tu.nl/en/log-in-upload-data/about-log-in/</a></p>
 </div>
 <div class="section" id="dataversenl">
-<h2>DataVerseNL<a class="headerlink" href="#dataversenl" title="Permalink to this headline">¶</a></h2>
+<h3>DataVerseNL<a class="headerlink" href="#dataversenl" title="Permalink to this headline">¶</a></h3>
 <p>From <a class="reference external" href="https://researchdata.4tu.nl/en/use/manage-share/">researchdata.4tu.nl</a>: “Members of the three technical universities (Eindhoven, Twente and Delft) can draw upon DataverseNL through 4TU.ResearchData. The objective of this open source application is to make research data accessible to others. You can store data in the DataverseNL environment and grant multiple individuals controlled access to them. Once you have requested the project environment or dataverse from 4TU.ResearchData, you are free to arrange this environment as you wish.”</p>
 <p>Click the link above to learn more.</p>
 </div>
 <div class="section" id="zenodo">
-<h2>Zenodo<a class="headerlink" href="#zenodo" title="Permalink to this headline">¶</a></h2>
+<h3>Zenodo<a class="headerlink" href="#zenodo" title="Permalink to this headline">¶</a></h3>
 <p>From <a class="reference external" href="https://zenodo.org/">zenodo.org</a>: “Built and developed by researchers, to ensure that everyone can join in Open Science. The OpenAIRE project, in the vanguard of the open access and open data movements in Europe was commissioned by the EC to support their nascent Open Data policy by providing a catch-all repository for EC funded research. CERN, an OpenAIRE partner and pioneer in open source, open access and open data, provided this capability and Zenodo was launched in May 2013.</p>
 <p>Every upload is assigned a Digital Object Identifier (DOI), to make them citable and trackable.”</p>
 <p><strong>Sign up for an account through your GitHub account or ORCID here:</strong> <a class="reference external" href="https://zenodo.org/signup/">https://zenodo.org/signup/</a></p>
 </div>
 <div class="section" id="tu-delft-gitlab-code-only">
-<h2>TU Delft GitLab (code only)<a class="headerlink" href="#tu-delft-gitlab-code-only" title="Permalink to this headline">¶</a></h2>
+<h3>TU Delft GitLab (code only)<a class="headerlink" href="#tu-delft-gitlab-code-only" title="Permalink to this headline">¶</a></h3>
 <p>TU Delft has its own instance of GitLab at <a class="reference external" href="http://tudelft.gitlab.nl">tudelft.gitlab.nl</a>.</p>
 <p>From <a class="reference external" href="https://www.tudelft.nl/en/library/research-data-management/r/manage/collect-and-document">tudelft.nl</a>: “GitLab, <a class="reference external" href="http://Gitlab.tudelft.nl">Gitlab.tudelft.nl</a>, is an online Git repository management tool with a wiki, issue tracker, Continuous Integration and Continuous Deployment built-in. The service is intended for researchers. It is a TU Delft provided version control system with backup facility, particularly useful for working with code and software. Access to external collaborators can be provided.</p>
 <p>Similar services are, for example, <a class="reference external" href="http://GitHub.com">GitHub.com</a> or <a class="reference external" href="http://GitLab.com">GitLab.com</a>. In contrast to these services, GitLab TU Delft is hosted by the TU Delft itself, on campus.  You can create a GitLab repository yourself at <a class="reference external" href="https://gitlab.tudelft.nl">https://gitlab.tudelft.nl</a>. More information and a form to request access for external users can be found at <a class="reference external" href="https://tudelft.topdesk.net/tas/public/ssp/content/detail/service?unid=888da653ddc04d01b2d5db413fc99a42">Top Desk</a>.”</p>
 <p><strong>Sign up for a free TU Delft GitLab account here:</strong> <a class="reference external" href="https://gitlab.tudelft.nl">https://gitlab.tudelft.nl</a></p>
 </div>
 <div class="section" id="github-code-only">
-<h2>GitHub (code only)<a class="headerlink" href="#github-code-only" title="Permalink to this headline">¶</a></h2>
+<h3>GitHub (code only)<a class="headerlink" href="#github-code-only" title="Permalink to this headline">¶</a></h3>
 <p>From <a class="reference external" href="https://ourcodingclub.github.io/tutorials/git-for-labs/">ourcodingclub.github.io</a>: “Having a GitHub repo for your lab makes it easy to keep track of collaborative and personal projects - all files necessary for certain analyses can be held together and people can add in their code, graphs, etc. as the projects develop. Each file on GitHub has a history, making it easy to explore the changes that occurred to it at different time points. You can review other people’s code, add comments on certain lines or the overall document, and suggest changes. For collaborative projects, GitHub allows you to assign tasks to different users, making it clear who is responsible for which part of the analysis. You can also ask certain users to review your code. Overall, GitHub presents a great opportunity to have an online back up copy of your work, whilst also doing version control, and it can also make it easier to discuss code, as well as write and edit code collaboratively.”</p>
 <p><strong>Sign up for a free GitHub account here:</strong> <a class="reference external" href="https://github.com/">https://github.com/</a></p>
 </div>
 <div class="section" id="other-geodata-repositories">
-<h2>Other geodata repositories<a class="headerlink" href="#other-geodata-repositories" title="Permalink to this headline">¶</a></h2>
+<h3>Other geodata repositories<a class="headerlink" href="#other-geodata-repositories" title="Permalink to this headline">¶</a></h3>
 <p>Check out the <a class="reference external" href="https://github.com/delft-dh/DDH-Community-Data-Wiki/wiki/S1-Collect-GeoData#geodata-repositories">Geodata repositories</a> section of this wiki and <a class="reference external" href="https://en.wikipedia.org/wiki/List_of_GIS_data_sources">this list of geodata repositories</a> to decide where you might want to publish your data. <a class="reference external" href="http://OpenAIRE.eu">OpenAIRE.eu</a> has published this <a class="reference external" href="https://www.openaire.eu/opendatapilot-repository-guide">guide for researchers on choosing a repository</a> to share your research outputs in after your project ends.</p>
+</div>
 </div>
 <div class="section" id="metadata-preparation">
 <h2>Metadata preparation<a class="headerlink" href="#metadata-preparation" title="Permalink to this headline">¶</a></h2>
@@ -345,7 +355,7 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="S4-Visualise-GeoData.html" title="previous page">Making maps</a>
+    <a class='left-prev' id="prev-link" href="S4-Visualise-GeoData.html" title="previous page">Visualizing GeoData</a>
     <a class='right-next' id="next-link" href="_Footer.html" title="next page">Contribute to this page to make it better!</a>
 
     </div>

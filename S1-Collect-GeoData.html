@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Geodata Open Data sources &#8212; Delft Digital Humanities Organization Website</title>
+    <title>Collecting GeoData &#8212; Delft Digital Humanities Organization Website</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -55,8 +55,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Data Conversion" href="S2-Prepare-GeoData.html" />
-    <link rel="prev" title="About the DDH Community Data Wiki" href="README.html" />
+    <link rel="next" title="Preparing GeoData" href="S2-Prepare-GeoData.html" />
+    <link rel="prev" title="Research and Data management roles" href="05-RDM-Roles-and-Responsibilities.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -86,53 +86,53 @@
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
     <ul class="current nav sidenav_l1">
  <li class="toctree-l1">
+  <a class="reference internal" href="01-Considerations-for-FAIR-research.html">
+   FAIR Research
+  </a>
+ </li>
+ <li class="toctree-l1">
   <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html">
-   1. Urban population density by built area
+   DCC Demo repository
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
-   The Open Source Geospatial Foundation
+   Open Source Tools
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="04-Reproducible-Research.html">
-   Reproducibility
+   Reproducible Research
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
-   Common roles and activities related to research data management and software
-  </a>
- </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="README.html">
-   About the DDH Community Data Wiki
+   Research and Data management roles
   </a>
  </li>
  <li class="toctree-l1 current active">
   <a class="current reference internal" href="#">
-   Geodata Open Data sources
+   Collecting GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S2-Prepare-GeoData.html">
-   Data Conversion
+   Preparing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S3-Analyse-GeoData.html">
-   Learning how to code
+   Analyzing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S4-Visualise-GeoData.html">
-   Making maps
+   Visualizing GeoData
   </a>
  </li>
  <li class="toctree-l1">
   <a class="reference internal" href="S5-Share-GeoData--and-Code.html">
-   Data and Code Repositories
+   Sharing and publishing GeoData
   </a>
  </li>
  <li class="toctree-l1">
@@ -229,39 +229,46 @@
         <nav id="bd-toc-nav">
             <ul class="nav section-nav flex-column">
  <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#openstreetmap">
-   OpenStreetMap
+  <a class="reference internal nav-link" href="#geodata-open-data-sources">
+   Geodata Open Data sources
   </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#mapbox-js">
-   MapBox.js
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#pdok-open-data">
-   PDOK Open Data
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#open-data-stack-exchange">
-   Open Data Stack Exchange
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#open-environmental-and-earth-observation-data">
-   Open Environmental and Earth Observation data
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#cbs-open-data">
-   CBS Open Data
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#kaggle">
-   Kaggle
-  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#openstreetmap">
+     OpenStreetMap
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#mapbox-js">
+     MapBox.js
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pdok-open-data">
+     PDOK Open Data
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#open-data-stack-exchange">
+     Open Data Stack Exchange
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#open-environmental-and-earth-observation-data">
+     Open Environmental and Earth Observation data
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#cbs-open-data">
+     CBS Open Data
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#kaggle">
+     Kaggle
+    </a>
+   </li>
+  </ul>
  </li>
  <li class="toc-h2 nav-item toc-entry">
   <a class="reference internal nav-link" href="#geodata-repositories">
@@ -331,10 +338,12 @@
         
               <div>
                 
-  <div class="section" id="geodata-open-data-sources">
-<h1>Geodata Open Data sources<a class="headerlink" href="#geodata-open-data-sources" title="Permalink to this headline">¶</a></h1>
+  <div class="section" id="collecting-geodata">
+<h1>Collecting GeoData<a class="headerlink" href="#collecting-geodata" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="geodata-open-data-sources">
+<h2>Geodata Open Data sources<a class="headerlink" href="#geodata-open-data-sources" title="Permalink to this headline">¶</a></h2>
 <div class="section" id="openstreetmap">
-<h2>OpenStreetMap<a class="headerlink" href="#openstreetmap" title="Permalink to this headline">¶</a></h2>
+<h3>OpenStreetMap<a class="headerlink" href="#openstreetmap" title="Permalink to this headline">¶</a></h3>
 <p>From <a class="reference external" href="https://www.openstreetmap.org/about">openstreetmap.org</a>: “OpenStreetMap provides map data for thousands of web sites, mobile apps, and hardware devices. OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world. OpenStreetMap is open data: you are free to use it for any purpose as long as you credit OpenStreetMap and its contributors. If you alter or build upon the data in certain ways, you may distribute the result only under the same licence.”</p>
 <p><strong>Resources:</strong></p>
 <ul class="simple">
@@ -342,7 +351,7 @@
 </ul>
 </div>
 <div class="section" id="mapbox-js">
-<h2>MapBox.js<a class="headerlink" href="#mapbox-js" title="Permalink to this headline">¶</a></h2>
+<h3>MapBox.js<a class="headerlink" href="#mapbox-js" title="Permalink to this headline">¶</a></h3>
 <p>Mapbox.js is a library for fast &amp; interactive maps. Built on top of Leaflet, Mapbox.js is Open source and available on GitHub.</p>
 <ul class="simple">
 <li><p><a class="reference external" href="https://docs.mapbox.com/#maps">MapBox APIs</a></p></li>
@@ -352,16 +361,16 @@
 </ul>
 </div>
 <div class="section" id="pdok-open-data">
-<h2>PDOK Open Data<a class="headerlink" href="#pdok-open-data" title="Permalink to this headline">¶</a></h2>
+<h3>PDOK Open Data<a class="headerlink" href="#pdok-open-data" title="Permalink to this headline">¶</a></h3>
 <p>From <a class="reference external" href="https://www.pdok.nl/">pdok.nl</a>: “Public Services On the Map (PDOK) is a platform for accessing geo data sets of Dutch governments. This is current and reliable data for both the public and private sector. PDOK makes digital geo-information available as data services and files. The PDOK services are based on open data and are therefore freely available to everyone.</p>
 <p>At PDOK you will find open data sets from the [Dutch] government with current geo-information. These datasets are accessible via geo web services, RESTful APIs and available as downloads and linked data.”</p>
 </div>
 <div class="section" id="open-data-stack-exchange">
-<h2>Open Data Stack Exchange<a class="headerlink" href="#open-data-stack-exchange" title="Permalink to this headline">¶</a></h2>
+<h3>Open Data Stack Exchange<a class="headerlink" href="#open-data-stack-exchange" title="Permalink to this headline">¶</a></h3>
 <p>Need open data? Ask for it! Post your queries here: <a class="reference external" href="https://opendata.stackexchange.com/">https://opendata.stackexchange.com/</a></p>
 </div>
 <div class="section" id="open-environmental-and-earth-observation-data">
-<h2>Open Environmental and Earth Observation data<a class="headerlink" href="#open-environmental-and-earth-observation-data" title="Permalink to this headline">¶</a></h2>
+<h3>Open Environmental and Earth Observation data<a class="headerlink" href="#open-environmental-and-earth-observation-data" title="Permalink to this headline">¶</a></h3>
 <p>From <a class="reference external" href="https://digital-geography.com/digital-earth-potential-data-brokers/">digital-geography.com</a>: “Recently there has been a wide spread adoption of Open Access or Open Data policies for environmental and Earth Observation data. With these developments we are seeing a paradigm shift towards a data-centric Environmental Observation Web, where data is semantically enriched thus enabling the consumption, production and reuse of environmental observations in cross-domain applications. We are also seeing the proliferation of data portals and catalogues:</p>
 <ul class="simple">
 <li><p><a class="reference external" href="http://www.geoportal.org/">The Group on Earth Observations portal (GEOSS)</a></p></li>
@@ -371,7 +380,7 @@
 </ul>
 </div>
 <div class="section" id="cbs-open-data">
-<h2>CBS Open Data<a class="headerlink" href="#cbs-open-data" title="Permalink to this headline">¶</a></h2>
+<h3>CBS Open Data<a class="headerlink" href="#cbs-open-data" title="Permalink to this headline">¶</a></h3>
 <p>From <a class="reference external" href="https://opendata.cbs.nl/statline/portal.html?_la=nl&amp;_catalog=CBS">opendata.cbs.nl</a>: “As the national statistical office, Statistics Netherlands (CBS) provides reliable statistical information and data to produce insight into social issues, thus supporting the public debate, policy development and decision-making while contributing to prosperity, well-being and democracy.</p>
 <p>CBS was established in 1899 in response to the need for independent and reliable information that advances the understanding of social issues. This is still the main role of CBS. Through time, CBS has grown into an innovative knowledge institution, with continuous adoption of new technologies and developments in order to safeguard the quality of its data and its independent position.”</p>
 <p>Resources:</p>
@@ -380,8 +389,9 @@
 </ul>
 </div>
 <div class="section" id="kaggle">
-<h2>Kaggle<a class="headerlink" href="#kaggle" title="Permalink to this headline">¶</a></h2>
+<h3>Kaggle<a class="headerlink" href="#kaggle" title="Permalink to this headline">¶</a></h3>
 <p>From <a class="reference external" href="https://www.kaggle.com/datasets">kaggle.com</a>: “Kaggle offers a no-setup, customizable, Jupyter Notebooks environment. Access free GPUs and a huge repository of community published data &amp; code.”</p>
+</div>
 </div>
 <div class="section" id="geodata-repositories">
 <h2>Geodata repositories<a class="headerlink" href="#geodata-repositories" title="Permalink to this headline">¶</a></h2>
@@ -457,8 +467,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="README.html" title="previous page">About the DDH Community Data Wiki</a>
-    <a class='right-next' id="next-link" href="S2-Prepare-GeoData.html" title="next page">Data Conversion</a>
+    <a class='left-prev' id="prev-link" href="05-RDM-Roles-and-Responsibilities.html" title="previous page">Research and Data management roles</a>
+    <a class='right-next' id="next-link" href="S2-Prepare-GeoData.html" title="next page">Preparing GeoData</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
