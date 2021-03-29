@@ -1,5 +1,6 @@
-# Learning how to code
-Learning how to work in a programming language like Python or R requires commitment and time to master. However, because these are highly useful and open-source tools that have applications in a broad array of disciplines, there is a plethora of knowledge available to help get started and troubleshoot challenges you run into. Generally speaking, you will find the information you need by searching for <the name of the library you want to use> + "documentation", or by searching a specific question on community forums like Stack Overflow. 
+# Analyzing GeoData
+## Learning how to code
+Learning how to work in a programming language like Python or R requires commitment and time to master. However, because these are highly useful and open-source tools that have applications in a broad array of disciplines, there is a plethora of knowledge available to help get started and troubleshoot challenges you run into. Generally speaking, you will find the information you need by searching for the name of the "library" you want to use + "documentation", or by searching a specific question on community forums like Stack Overflow. 
 
 #### Here are some resources that can help you get started:
 

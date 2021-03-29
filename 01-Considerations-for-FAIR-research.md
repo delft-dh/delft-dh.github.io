@@ -1,4 +1,5 @@
-# What is FAIR data and software?
+# FAIR Research
+## What is FAIR data and software?
 From [openaire.eu](https://www.openaire.eu/how-to-make-your-data-fair): "The FAIR principles describe how research outputs should be organised so they can be more easily accessed, understood, exchanged and reused. Major funding bodies, including the European Commission, promote FAIR data to maximise the integrity and impact of their research investment." FAIR stands for **F**indable, **A**ccessible, **I**nteroperable, and **R**eusable/**R**eproducible.
 
 Resources to learn more about the FAIR principles and how to apply them:

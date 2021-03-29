@@ -4,7 +4,7 @@ sections:
 - file: 03-Open-Source-Tools-and-Software
 - file: 04-Reproducible-Research
 - file: 05-RDM-Roles-and-Responsibilities
-- file: Home
+- file: README
 - file: S1-Collect-GeoData
 - file: S2-Prepare-GeoData
 - file: S3-Analyse-GeoData
