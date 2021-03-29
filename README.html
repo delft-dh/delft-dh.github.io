@@ -5,7 +5,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1. Urban population density by built area &#8212; Delft Digital Humanities Organization Website</title>
+    <title>About the DDH Community Data Wiki &#8212; Delft Digital Humanities Organization Website</title>
     
   <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
 
@@ -55,8 +55,8 @@
     <script async="async" src="_static/sphinx-thebe.js"></script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="The Open Source Geospatial Foundation" href="03-Open-Source-Tools-and-Software.html" />
-    <link rel="prev" title="What is FAIR data and software?" href="01-Considerations-for-FAIR-research.html" />
+    <link rel="next" title="Geodata Open Data sources" href="S1-Collect-GeoData.html" />
+    <link rel="prev" title="Common roles and activities related to research data management and software" href="05-RDM-Roles-and-Responsibilities.html" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="docsearch:language" content="en" />
@@ -85,8 +85,8 @@
 </form>
 <nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
     <ul class="current nav sidenav_l1">
- <li class="toctree-l1 current active">
-  <a class="current reference internal" href="#">
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html">
    1. Urban population density by built area
   </a>
  </li>
@@ -105,8 +105,8 @@
    Common roles and activities related to research data management and software
   </a>
  </li>
- <li class="toctree-l1">
-  <a class="reference internal" href="README.html">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
    About the DDH Community Data Wiki
   </a>
  </li>
@@ -185,7 +185,7 @@
         <!-- ipynb file if we had a myst markdown file -->
         
         <!-- Download raw file -->
-        <a class="dropdown-buttons" href="_sources/02-Demo-Repos-for-HGIS-Analysis.md"><button type="button"
+        <a class="dropdown-buttons" href="_sources/README.md"><button type="button"
                 class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
                 data-placement="left">.md</button></a>
         <!-- Download PDF via print -->
@@ -223,52 +223,6 @@
     <!-- Table of contents -->
     <div class="d-none d-md-block col-md-2 bd-toc show">
         
-        <div class="tocsection onthispage pt-5 pb-3">
-            <i class="fas fa-list"></i> Contents
-        </div>
-        <nav id="bd-toc-nav">
-            <ul class="nav section-nav flex-column">
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#wwii-bombings-heat-map">
-   2. WWII bombings heat map
-  </a>
- </li>
- <li class="toc-h2 nav-item toc-entry">
-  <a class="reference internal nav-link" href="#ideas-for-demo-repositories">
-   Ideas for Demo Repositories
-  </a>
-  <ul class="nav section-nav flex-column">
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#polygon-area-overlap">
-     Polygon Area Overlap
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#geotagging-images-for-spatial-analysis">
-     Geotagging images for spatial analysis
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#georectification">
-     Georectification
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#map-annotation">
-     Map annotation
-    </a>
-   </li>
-   <li class="toc-h3 nav-item toc-entry">
-    <a class="reference internal nav-link" href="#text-recognition">
-     Text recognition
-    </a>
-   </li>
-  </ul>
- </li>
-</ul>
-
-        </nav>
-        
     </div>
 </div>
     <div id="main-content" class="row">
@@ -276,81 +230,13 @@
         
               <div>
                 
-  <div class="section" id="urban-population-density-by-built-area">
-<h1>1. Urban population density by built area<a class="headerlink" href="#urban-population-density-by-built-area" title="Permalink to this headline">¶</a></h1>
-<p>An urbanist interested in space logistics calculates a more accurate value for urban population density based on the total area of built environment within a municipality. The total area of a city includes water, roads, sidewalks etc., but in this case, the researcher is interested in only the area occupied by buildings, i.e., the total ground floor area of all buildings in the city. They use data from the PDOK (built area) and CBS (population size) to find a value of population density per built area. They must convert the PDOK data, which is offered in .gml format, into geoJSON prior to conducting their analysis using Python in a Jupyter notebook.</p>
-<p><strong>Link to Repository:</strong> <a class="reference external" href="https://github.com/delft-dh/DCC-Demo-Population-Density-by-Built-Area">https://github.com/delft-dh/DCC-Demo-Population-Density-by-Built-Area</a></p>
-<p>Concepts illustrated:</p>
-<ul class="simple">
-<li><p>Geospatial file type conversion (GML to GeoJSON)</p></li>
-<li><p>Extracting layers by conditional values</p></li>
-<li><p>Calculating spatial area by polygon label</p></li>
-<li><p>Managing packages (and conflicts) using conda environments</p></li>
-</ul>
-<p>Tools demonstrated:</p>
-<ul class="simple">
-<li><p>Python</p></li>
-<li><p>geopandas for spatial area calculation</p></li>
-<li><p>ogr2ogr for data conversion</p></li>
-<li><p>Jupyter notebooks</p></li>
-</ul>
-<div class="section" id="wwii-bombings-heat-map">
-<h2>2. WWII bombings heat map<a class="headerlink" href="#wwii-bombings-heat-map" title="Permalink to this headline">¶</a></h2>
-<p>A historian studying infrastructure damaged in WWII visualises the volume of bombs that landed in countries throughout the world during the war. Data are represented in a heatmap. All (python) code is available and reproducible from a Jupyter notebook.</p>
-<p><strong>Link to Repository:</strong> <a class="reference external" href="https://github.com/delft-dh/DCC-Demo-Heatmap-of-WWII-Bombings">https://github.com/delft-dh/DCC-Demo-Heatmap-of-WWII-Bombings</a></p>
-<p>Concepts illustrated:</p>
-<ul class="simple">
-<li><p>Version control with Git</p></li>
-<li><p>Data cleaning</p></li>
-<li><p>Creating a custom heatmap</p></li>
-</ul>
-<p>Tools demonstrated:</p>
-<ul class="simple">
-<li><p>Python</p></li>
-<li><p>Geopandas (Python library for geospatial data)</p></li>
-<li><p>Jupyter Notebooks</p></li>
-<li><p>Git</p></li>
-</ul>
-<p>Based on this tutorial from the <a class="reference external" href="https://programminghistorian.org/en/lessons/visualizing-with-bokeh#creating-a-python-3-virtual-environment">Programming Historian</a>, with a case study of WWII bombings.</p>
-</div>
-<div class="section" id="ideas-for-demo-repositories">
-<h2>Ideas for Demo Repositories<a class="headerlink" href="#ideas-for-demo-repositories" title="Permalink to this headline">¶</a></h2>
-<p>These ideas were generated by members of the DDH community as potentially useful reproducible data analysis processes. Though DDH-specific examples do not yet exist, references to use to develop them have been included where possible. Development of these challenges can be taken on by any any member of the community - it’s a great chance to develop your coding skills and share with everyone!</p>
-<div class="section" id="polygon-area-overlap">
-<h3>Polygon Area Overlap<a class="headerlink" href="#polygon-area-overlap" title="Permalink to this headline">¶</a></h3>
-<p>“Between the 10 datasets that are loaded, which two show the most, or least, similarity in spatial patterns?”</p>
-<p><strong>Challenge:</strong> Calculate degree to which polygons in n spatial datasets overlap.</p>
-</div>
-<div class="section" id="geotagging-images-for-spatial-analysis">
-<h3>Geotagging images for spatial analysis<a class="headerlink" href="#geotagging-images-for-spatial-analysis" title="Permalink to this headline">¶</a></h3>
-<p><strong>Reference:</strong></p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://teach.dariah.eu/course/view.php?id=29">https://teach.dariah.eu/course/view.php?id=29</a></p></li>
-</ul>
-</div>
-<div class="section" id="georectification">
-<h3>Georectification<a class="headerlink" href="#georectification" title="Permalink to this headline">¶</a></h3>
-<p><strong>Reference:</strong></p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://lincolnmullen.com/projects/spatial-workshop/georectification.html">https://lincolnmullen.com/projects/spatial-workshop/georectification.html</a></p></li>
-</ul>
-</div>
-<div class="section" id="map-annotation">
-<h3>Map annotation<a class="headerlink" href="#map-annotation" title="Permalink to this headline">¶</a></h3>
-<p><strong>Reference:</strong></p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://www.kaggle.com/rtatman/geographically-annotated-civil-war-corpus">https://www.kaggle.com/rtatman/geographically-annotated-civil-war-corpus</a></p></li>
-</ul>
-</div>
-<div class="section" id="text-recognition">
-<h3>Text recognition<a class="headerlink" href="#text-recognition" title="Permalink to this headline">¶</a></h3>
-<p><strong>References:</strong></p>
-<ul class="simple">
-<li><p><a class="reference external" href="https://www.kaggle.com/geonames/geonames-database">https://www.kaggle.com/geonames/geonames-database</a></p></li>
-<li><p><a class="reference external" href="https://medium.com/&#64;tjukanov/places-and-their-names-observations-from-11-million-place-names-8ea34cf61da4">Places and their names — observations from 11 million place names | by Topi Tjukanov | Medium</a></p></li>
-</ul>
-</div>
-</div>
+  <div class="section" id="about-the-ddh-community-data-wiki">
+<h1>About the DDH Community Data Wiki<a class="headerlink" href="#about-the-ddh-community-data-wiki" title="Permalink to this headline">¶</a></h1>
+<p>The aim of the DDH Community Data Wiki is to articulate the Data Wheel framework into a practical and actionable FAIR data and software workflow. Through <strong>ongoing community contributions and support</strong>, this resource will grow to help researchers defining and recommending processes and tools for geographic and historic data collection, data verification, data publishing, as well as analysis, source management, and more.</p>
+<p>The pages contain links to learning resources and popular programming libraries and packages (collections of ready-made functions) in geospatial analysis, as well as hands-on demonstrations of how to transition to a more reproducible workflow by collecting, preparing, analysing, visualising and sharing data. See the FAIR data and software section for information on including metadata and documentation to help make your research outputs Findable, Accessible, Interoperable and Reusable.</p>
+<p>Use the menu bar on the right side of the Wiki to navigate to each section of the Wiki. Have fun! :)</p>
+<p><img alt="GeoPlatform_datawheel" src="_images/GeoPlatform_datawheel.png" /></p>
+<p>Figure 1. The Data Wheel methodology (by Carola Hein and the Delft Digital Humanities group at Delft University of Technology).</p>
 </div>
 
     <script type="text/x-thebe-config">
@@ -381,8 +267,8 @@
     
     <div class='prev-next-bottom'>
         
-    <a class='left-prev' id="prev-link" href="01-Considerations-for-FAIR-research.html" title="previous page">What is FAIR data and software?</a>
-    <a class='right-next' id="next-link" href="03-Open-Source-Tools-and-Software.html" title="next page">The Open Source Geospatial Foundation</a>
+    <a class='left-prev' id="prev-link" href="05-RDM-Roles-and-Responsibilities.html" title="previous page">Common roles and activities related to research data management and software</a>
+    <a class='right-next' id="next-link" href="S1-Collect-GeoData.html" title="next page">Geodata Open Data sources</a>
 
     </div>
     <footer class="footer mt-5 mt-md-0">
