@@ -1,0 +1,485 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About the DDH Community Data Wiki &#8212; Python essentials for GIS learners</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script kind="utterances">
+
+    var commentsRunWhenDOMLoaded = cb => {
+    if (document.readyState != 'loading') {
+        cb()
+    } else if (document.addEventListener) {
+        document.addEventListener('DOMContentLoaded', cb)
+    } else {
+        document.attachEvent('onreadystatechange', function() {
+        if (document.readyState == 'complete') cb()
+        })
+    }
+}
+
+var addUtterances = () => {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "https://utteranc.es/client.js";
+    script.async = "async";
+
+    script.setAttribute("repo", "the-magnificents/04-02-2021-Carpentry-for-HGIS");
+    script.setAttribute("issue-term", "pathname");
+    script.setAttribute("theme", "github-light");
+    script.setAttribute("label", "💬 comment");
+    script.setAttribute("crossorigin", "anonymous");
+
+    sections = document.querySelectorAll("div.section");
+    if (sections !== null) {
+        section = sections[sections.length-1];
+        section.appendChild(script);
+    }
+}
+commentsRunWhenDOMLoaded(addUtterances);
+</script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Geodata Open Data sources" href="S1-Collect-GeoData.html" />
+    <link rel="prev" title="Common roles and activities related to research data management and software" href="05-RDM-Roles-and-Responsibilities.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Python essentials for GIS learners</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html">
+   1. Urban population density by built area
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html#wwii-bombings-heat-map">
+   2. WWII bombings heat map
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html#ideas-for-demo-repositories">
+   Ideas for Demo Repositories
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
+   The Open Source Geospatial Foundation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#qgis">
+   QGIS
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#grass-gis">
+   GRASS GIS
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#gdal">
+   GDAL
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#saga-gis">
+   SAGA-GIS
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#postgresql">
+   PostgreSQL
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#postgis">
+   PostGIS
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#python">
+   Python
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#anaconda">
+   Anaconda
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#jupyter-notebook-jupyter-lab">
+   Jupyter Notebook + Jupyter Lab
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#r">
+   R
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#rstudio">
+   RStudio
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#git">
+   Git
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#github">
+   GitHub
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#data-version-control-dvc">
+   Data Version Control (DVC)
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html#questions">
+   Questions?
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-Reproducible-Research.html">
+   Reproducibility
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-Reproducible-Research.html#organising-your-projects">
+   Organising your projects
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-Reproducible-Research.html#resources">
+   Resources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
+   Common roles and activities related to research data management and software
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   About the DDH Community Data Wiki
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S1-Collect-GeoData.html">
+   Geodata Open Data sources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S1-Collect-GeoData.html#geodata-repositories">
+   Geodata repositories
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html">
+   Data Conversion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html#data-cleaning">
+   Data cleaning
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html#aligning-projections">
+   Aligning projections
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html#georeferencing">
+   Georeferencing
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html#geo-annotating">
+   Geo Annotating
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html#object-recognition">
+   Object recognition
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html#automatic-vectorization">
+   Automatic Vectorization
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html#automatic-modeling">
+   Automatic Modeling
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S3-Analyse-GeoData.html">
+   Learning how to code
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S3-Analyse-GeoData.html#python-packages-for-geospatial-analysis">
+   Python packages for geospatial analysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S3-Analyse-GeoData.html#r-packages-for-geospatial-analysis">
+   R packages for geospatial analysis
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S4-Visualise-GeoData.html">
+   Making maps
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S4-Visualise-GeoData.html#inspiration-and-precedents-for-geospatial-data-visualisation">
+   Inspiration and precedents for geospatial data visualisation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S5-Share-GeoData--and-Code.html">
+   Data and Code Repositories
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S5-Share-GeoData--and-Code.html#metadata-preparation">
+   Metadata preparation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="_Footer.html">
+   Contribute to this page to make it better!
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="_Footer.html#have-a-comment">
+   Have a comment?
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/Home.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/the-magnificents/04-02-2021-Carpentry-for-HGIS.git"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="about-the-ddh-community-data-wiki">
+<h1>About the DDH Community Data Wiki<a class="headerlink" href="#about-the-ddh-community-data-wiki" title="Permalink to this headline">¶</a></h1>
+<p>The aim of the DDH Community Data Wiki is to articulate the Data Wheel framework into a practical and actionable FAIR data and software workflow. Through <strong>ongoing community contributions and support</strong>, this resource will grow to help researchers defining and recommending processes and tools for geographic and historic data collection, data verification, data publishing, as well as analysis, source management, and more.</p>
+<p>The pages contain links to learning resources and popular programming libraries and packages (collections of ready-made functions) in geospatial analysis, as well as hands-on demonstrations of how to transition to a more reproducible workflow by collecting, preparing, analysing, visualising and sharing data. See the FAIR data and software section for information on including metadata and documentation to help make your research outputs Findable, Accessible, Interoperable and Reusable.</p>
+<p>Use the menu bar on the right side of the Wiki to navigate to each section of the Wiki. Have fun! :)</p>
+<p><img alt="GeoPlatform_datawheel" src="_images/GeoPlatform_datawheel.png" /></p>
+<p>Figure 1. The Data Wheel methodology (by Carola Hein and the Delft Digital Humanities group at Delft University of Technology).</p>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="05-RDM-Roles-and-Responsibilities.html" title="previous page">Common roles and activities related to research data management and software</a>
+    <a class='right-next' id="next-link" href="S1-Collect-GeoData.html" title="next page">Geodata Open Data sources</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>

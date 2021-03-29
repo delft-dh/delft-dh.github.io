@@ -1,0 +1,481 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Geodata Open Data sources &#8212; Delft Digital Humanities Organization Website</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Data Conversion" href="S2-Prepare-GeoData.html" />
+    <link rel="prev" title="Common roles and activities related to research data management and software" href="05-RDM-Roles-and-Responsibilities.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Delft Digital Humanities Organization Website</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html">
+   1. Urban population density by built area
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
+   The Open Source Geospatial Foundation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-Reproducible-Research.html">
+   Reproducibility
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
+   Common roles and activities related to research data management and software
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Geodata Open Data sources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html">
+   Data Conversion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S3-Analyse-GeoData.html">
+   Learning how to code
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S4-Visualise-GeoData.html">
+   Making maps
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S5-Share-GeoData--and-Code.html">
+   Data and Code Repositories
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="_Footer.html">
+   Contribute to this page to make it better!
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="_Footer.html#have-a-comment">
+   Have a comment?
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/S1-Collect-GeoData.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/delft-dh/delft-dh.github.io"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#openstreetmap">
+   OpenStreetMap
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#mapbox-js">
+   MapBox.js
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#pdok-open-data">
+   PDOK Open Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#open-data-stack-exchange">
+   Open Data Stack Exchange
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#open-environmental-and-earth-observation-data">
+   Open Environmental and Earth Observation data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#cbs-open-data">
+   CBS Open Data
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#kaggle">
+   Kaggle
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#geodata-repositories">
+   Geodata repositories
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#natural-earth">
+     Natural Earth
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#unep-environmental-data-explorer">
+     UNEP Environmental Data Explorer
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#opentopography">
+     OpenTopography
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#world-bank-geodata">
+     World Bank Geodata
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gridded-population-of-the-world">
+     Gridded Population of the World
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#id1">
+     OpenStreetMap
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#world-port-index">
+     World Port Index
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#openlandmap">
+     OpenLandMap
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#tu-researchdata">
+     4TU.ResearchData
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#zenodo">
+     Zenodo
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="geodata-open-data-sources">
+<h1>Geodata Open Data sources<a class="headerlink" href="#geodata-open-data-sources" title="Permalink to this headline">¶</a></h1>
+<div class="section" id="openstreetmap">
+<h2>OpenStreetMap<a class="headerlink" href="#openstreetmap" title="Permalink to this headline">¶</a></h2>
+<p>From <a class="reference external" href="https://www.openstreetmap.org/about">openstreetmap.org</a>: “OpenStreetMap provides map data for thousands of web sites, mobile apps, and hardware devices. OpenStreetMap is built by a community of mappers that contribute and maintain data about roads, trails, cafés, railway stations, and much more, all over the world. OpenStreetMap is open data: you are free to use it for any purpose as long as you credit OpenStreetMap and its contributors. If you alter or build upon the data in certain ways, you may distribute the result only under the same licence.”</p>
+<p><strong>Resources:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://medium.com/better-programming/how-to-get-open-street-and-map-data-using-python-2b777bf5af14">How To Get Open Street Map Data Using Python</a></p></li>
+</ul>
+</div>
+<div class="section" id="mapbox-js">
+<h2>MapBox.js<a class="headerlink" href="#mapbox-js" title="Permalink to this headline">¶</a></h2>
+<p>Mapbox.js is a library for fast &amp; interactive maps. Built on top of Leaflet, Mapbox.js is Open source and available on GitHub.</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://docs.mapbox.com/#maps">MapBox APIs</a></p></li>
+<li><p><a class="reference external" href="https://docs.mapbox.com/mapbox.js/api/v3.3.1/">Mapbox.js documentation</a></p></li>
+<li><p><a class="reference external" href="https://github.com/mapbox/mapbox.js/">Mapbox.js on GitHub</a></p></li>
+<li><p><a class="reference external" href="https://towardsdatascience.com/how-to-create-animated-scatter-maps-with-plotly-and-dash-f10bb82d357a">How to create outstanding animated scatter maps with Plotly and Dash</a></p></li>
+</ul>
+</div>
+<div class="section" id="pdok-open-data">
+<h2>PDOK Open Data<a class="headerlink" href="#pdok-open-data" title="Permalink to this headline">¶</a></h2>
+<p>From <a class="reference external" href="https://www.pdok.nl/">pdok.nl</a>: “Public Services On the Map (PDOK) is a platform for accessing geo data sets of Dutch governments. This is current and reliable data for both the public and private sector. PDOK makes digital geo-information available as data services and files. The PDOK services are based on open data and are therefore freely available to everyone.</p>
+<p>At PDOK you will find open data sets from the [Dutch] government with current geo-information. These datasets are accessible via geo web services, RESTful APIs and available as downloads and linked data.”</p>
+</div>
+<div class="section" id="open-data-stack-exchange">
+<h2>Open Data Stack Exchange<a class="headerlink" href="#open-data-stack-exchange" title="Permalink to this headline">¶</a></h2>
+<p>Need open data? Ask for it! Post your queries here: <a class="reference external" href="https://opendata.stackexchange.com/">https://opendata.stackexchange.com/</a></p>
+</div>
+<div class="section" id="open-environmental-and-earth-observation-data">
+<h2>Open Environmental and Earth Observation data<a class="headerlink" href="#open-environmental-and-earth-observation-data" title="Permalink to this headline">¶</a></h2>
+<p>From <a class="reference external" href="https://digital-geography.com/digital-earth-potential-data-brokers/">digital-geography.com</a>: “Recently there has been a wide spread adoption of Open Access or Open Data policies for environmental and Earth Observation data. With these developments we are seeing a paradigm shift towards a data-centric Environmental Observation Web, where data is semantically enriched thus enabling the consumption, production and reuse of environmental observations in cross-domain applications. We are also seeing the proliferation of data portals and catalogues:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="http://www.geoportal.org/">The Group on Earth Observations portal (GEOSS)</a></p></li>
+<li><p><a class="reference external" href="http://marine.copernicus.eu/">The EU Commission portal for marine modelling data</a></p></li>
+<li><p><a class="reference external" href="https://www.data.gov/">The Open Data portal of the US Government</a></p></li>
+<li><p><a class="reference external" href="https://scihub.copernicus.eu/dhus/#/home">The Open Access data portal of the European Space Agency</a></p></li>
+</ul>
+</div>
+<div class="section" id="cbs-open-data">
+<h2>CBS Open Data<a class="headerlink" href="#cbs-open-data" title="Permalink to this headline">¶</a></h2>
+<p>From <a class="reference external" href="https://opendata.cbs.nl/statline/portal.html?_la=nl&amp;_catalog=CBS">opendata.cbs.nl</a>: “As the national statistical office, Statistics Netherlands (CBS) provides reliable statistical information and data to produce insight into social issues, thus supporting the public debate, policy development and decision-making while contributing to prosperity, well-being and democracy.</p>
+<p>CBS was established in 1899 in response to the need for independent and reliable information that advances the understanding of social issues. This is still the main role of CBS. Through time, CBS has grown into an innovative knowledge institution, with continuous adoption of new technologies and developments in order to safeguard the quality of its data and its independent position.”</p>
+<p>Resources:</p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.cbs.nl/nl-nl/onze-diensten/open-data/statline-als-open-data">StatLine als open data</a></p></li>
+</ul>
+</div>
+<div class="section" id="kaggle">
+<h2>Kaggle<a class="headerlink" href="#kaggle" title="Permalink to this headline">¶</a></h2>
+<p>From <a class="reference external" href="https://www.kaggle.com/datasets">kaggle.com</a>: “Kaggle offers a no-setup, customizable, Jupyter Notebooks environment. Access free GPUs and a huge repository of community published data &amp; code.”</p>
+</div>
+<div class="section" id="geodata-repositories">
+<h2>Geodata repositories<a class="headerlink" href="#geodata-repositories" title="Permalink to this headline">¶</a></h2>
+<p>For a large list of geospatial data sources, see <a class="reference external" href="https://en.wikipedia.org/wiki/List_of_GIS_data_sources">here</a>.</p>
+<div class="section" id="natural-earth">
+<h3>Natural Earth<a class="headerlink" href="#natural-earth" title="Permalink to this headline">¶</a></h3>
+<p>From <a class="reference external" href="https://www.naturalearthdata.com/">naturalearthdata.com</a>: “Natural Earth is a public domain map dataset available at 1:10 million (1 cm = 100 km), 1:50 million, and 1:110 million map scales. Natural Earth’s data set contains integrated vector and raster mapping data.”</p>
+</div>
+<div class="section" id="unep-environmental-data-explorer">
+<h3>UNEP Environmental Data Explorer<a class="headerlink" href="#unep-environmental-data-explorer" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="http://geodata.grid.unep.ch/">geodata.grid.unep.ch</a>: “Includes global forest cover, global potential evapotranspiration, global average monthly temperatures, dams, watershed boundaries, and much more. Use the advanced search to select geospatial data sets. Provided by the United Nations Environment Programme.”</p>
+</div>
+<div class="section" id="opentopography">
+<h3>OpenTopography<a class="headerlink" href="#opentopography" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://opentopography.org/">opentopography.org</a>: “OpenTopography facilitates community access to high-resolution, Earth science-oriented, topography data, and related tools and resources. Find high-resolution, Earth science-based, topography data, and related tools and resources. Available as dense point clouds and DEMs.”</p>
+</div>
+<div class="section" id="world-bank-geodata">
+<h3>World Bank Geodata<a class="headerlink" href="#world-bank-geodata" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://sourceforge.net/projects/googleworldbank/">sourceforge.net</a>: “A wide range of World Bank datasets: schooling and financial data, etc.”</p>
+</div>
+<div class="section" id="gridded-population-of-the-world">
+<h3>Gridded Population of the World<a class="headerlink" href="#gridded-population-of-the-world" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://sedac.ciesin.columbia.edu/data/collection/gpw-v4">columbia.edu</a>: “Dataset from NASA’s Socioeconomic Data and Applications Center includes raw population, population density, historic, current and predicted.”</p>
+</div>
+<div class="section" id="id1">
+<h3>OpenStreetMap<a class="headerlink" href="#id1" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://www.openstreetmap.org/#map=8/52.154/5.295">openstreetmap.org</a>: “Crowdsourced data for the whole world including most things you’d find on a standard local paper map: points of interest, buildings, roads and road names, ferry routes etc.”</p>
+</div>
+<div class="section" id="world-port-index">
+<h3>World Port Index<a class="headerlink" href="#world-port-index" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://msi.nga.mil/NGAPortal/MSI.portal?_nfpb=true&amp;_pageLabel=msi_portal_page_62&amp;pubCode=0015">National (US) Geospatial-Intelligence Agency - Maritime Safety Office</a>: “Contains the location and physical characteristics of, and the facilities and services offered by major ports and terminals worldwide, from the United States National Geospatial-Intelligence Agency.”</p>
+</div>
+<div class="section" id="openlandmap">
+<h3>OpenLandMap<a class="headerlink" href="#openlandmap" title="Permalink to this headline">¶</a></h3>
+<p><a class="reference external" href="https://openlandmap.org/#/?base=Stamen%20(OpenStreetMap)%C2%A2er=39.0000,25.0000&amp;zoom=4&amp;opacity=80&amp;layer=lcv_land.cover_esacci.lc.l4_c&amp;time=2018">openlandmap.org</a>: “World’s environmental data representing land mask (land cover, vegetation, soil, climate, terrain data and similar)”</p>
+</div>
+<div class="section" id="tu-researchdata">
+<h3>4TU.ResearchData<a class="headerlink" href="#tu-researchdata" title="Permalink to this headline">¶</a></h3>
+<p>From <a class="reference external" href="https://researchdata.4tu.nl/en/about/organisation/">researchdata.4tu.nl</a>: “4TU.ResearchData is an international data repository for science, engineering and design. Its services include curation, sharing, long-term access and preservation of research datasets. These services are available to anyone around the world. In addition, 4TU.ResearchData also offers training and resources to researchers to support them in making research data findable, accessible, interoperable and reproducible (FAIR).”</p>
+</div>
+<div class="section" id="zenodo">
+<h3>Zenodo<a class="headerlink" href="#zenodo" title="Permalink to this headline">¶</a></h3>
+<p>From <a class="reference external" href="https://zenodo.org/">zenodo.org</a>: “Built and developed by researchers, to ensure that everyone can join in Open Science. The OpenAIRE project, in the vanguard of the open access and open data movements in Europe was commissioned by the EC to support their nascent Open Data policy by providing a catch-all repository for EC funded research. CERN, an OpenAIRE partner and pioneer in open source, open access and open data, provided this capability and Zenodo was launched in May 2013.”</p>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="05-RDM-Roles-and-Responsibilities.html" title="previous page">Common roles and activities related to research data management and software</a>
+    <a class='right-next' id="next-link" href="S2-Prepare-GeoData.html" title="next page">Data Conversion</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>

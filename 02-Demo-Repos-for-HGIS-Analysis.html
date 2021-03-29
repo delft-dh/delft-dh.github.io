@@ -1,0 +1,405 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>1. Urban population density by built area &#8212; Delft Digital Humanities Organization Website</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="The Open Source Geospatial Foundation" href="03-Open-Source-Tools-and-Software.html" />
+    <link rel="prev" title="What is FAIR data and software?" href="01-Considerations-for-FAIR-research.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Delft Digital Humanities Organization Website</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="current nav sidenav_l1">
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   1. Urban population density by built area
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
+   The Open Source Geospatial Foundation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-Reproducible-Research.html">
+   Reproducibility
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
+   Common roles and activities related to research data management and software
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S1-Collect-GeoData.html">
+   Geodata Open Data sources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html">
+   Data Conversion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S3-Analyse-GeoData.html">
+   Learning how to code
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S4-Visualise-GeoData.html">
+   Making maps
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S5-Share-GeoData--and-Code.html">
+   Data and Code Repositories
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="_Footer.html">
+   Contribute to this page to make it better!
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="_Footer.html#have-a-comment">
+   Have a comment?
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/02-Demo-Repos-for-HGIS-Analysis.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/delft-dh/delft-dh.github.io"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#wwii-bombings-heat-map">
+   2. WWII bombings heat map
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#ideas-for-demo-repositories">
+   Ideas for Demo Repositories
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#polygon-area-overlap">
+     Polygon Area Overlap
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#geotagging-images-for-spatial-analysis">
+     Geotagging images for spatial analysis
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#georectification">
+     Georectification
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#map-annotation">
+     Map annotation
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#text-recognition">
+     Text recognition
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="urban-population-density-by-built-area">
+<h1>1. Urban population density by built area<a class="headerlink" href="#urban-population-density-by-built-area" title="Permalink to this headline">¶</a></h1>
+<p>An urbanist interested in space logistics calculates a more accurate value for urban population density based on the total area of built environment within a municipality. The total area of a city includes water, roads, sidewalks etc., but in this case, the researcher is interested in only the area occupied by buildings, i.e., the total ground floor area of all buildings in the city. They use data from the PDOK (built area) and CBS (population size) to find a value of population density per built area. They must convert the PDOK data, which is offered in .gml format, into geoJSON prior to conducting their analysis using Python in a Jupyter notebook.</p>
+<p><strong>Link to Repository:</strong> <a class="reference external" href="https://github.com/delft-dh/DCC-Demo-Population-Density-by-Built-Area">https://github.com/delft-dh/DCC-Demo-Population-Density-by-Built-Area</a></p>
+<p>Concepts illustrated:</p>
+<ul class="simple">
+<li><p>Geospatial file type conversion (GML to GeoJSON)</p></li>
+<li><p>Extracting layers by conditional values</p></li>
+<li><p>Calculating spatial area by polygon label</p></li>
+<li><p>Managing packages (and conflicts) using conda environments</p></li>
+</ul>
+<p>Tools demonstrated:</p>
+<ul class="simple">
+<li><p>Python</p></li>
+<li><p>geopandas for spatial area calculation</p></li>
+<li><p>ogr2ogr for data conversion</p></li>
+<li><p>Jupyter notebooks</p></li>
+</ul>
+<div class="section" id="wwii-bombings-heat-map">
+<h2>2. WWII bombings heat map<a class="headerlink" href="#wwii-bombings-heat-map" title="Permalink to this headline">¶</a></h2>
+<p>A historian studying infrastructure damaged in WWII visualises the volume of bombs that landed in countries throughout the world during the war. Data are represented in a heatmap. All (python) code is available and reproducible from a Jupyter notebook.</p>
+<p><strong>Link to Repository:</strong> <a class="reference external" href="https://github.com/delft-dh/DCC-Demo-Heatmap-of-WWII-Bombings">https://github.com/delft-dh/DCC-Demo-Heatmap-of-WWII-Bombings</a></p>
+<p>Concepts illustrated:</p>
+<ul class="simple">
+<li><p>Version control with Git</p></li>
+<li><p>Data cleaning</p></li>
+<li><p>Creating a custom heatmap</p></li>
+</ul>
+<p>Tools demonstrated:</p>
+<ul class="simple">
+<li><p>Python</p></li>
+<li><p>Geopandas (Python library for geospatial data)</p></li>
+<li><p>Jupyter Notebooks</p></li>
+<li><p>Git</p></li>
+</ul>
+<p>Based on this tutorial from the <a class="reference external" href="https://programminghistorian.org/en/lessons/visualizing-with-bokeh#creating-a-python-3-virtual-environment">Programming Historian</a>, with a case study of WWII bombings.</p>
+</div>
+<div class="section" id="ideas-for-demo-repositories">
+<h2>Ideas for Demo Repositories<a class="headerlink" href="#ideas-for-demo-repositories" title="Permalink to this headline">¶</a></h2>
+<p>These ideas were generated by members of the DDH community as potentially useful reproducible data analysis processes. Though DDH-specific examples do not yet exist, references to use to develop them have been included where possible. Development of these challenges can be taken on by any any member of the community - it’s a great chance to develop your coding skills and share with everyone!</p>
+<div class="section" id="polygon-area-overlap">
+<h3>Polygon Area Overlap<a class="headerlink" href="#polygon-area-overlap" title="Permalink to this headline">¶</a></h3>
+<p>“Between the 10 datasets that are loaded, which two show the most, or least, similarity in spatial patterns?”</p>
+<p><strong>Challenge:</strong> Calculate degree to which polygons in n spatial datasets overlap.</p>
+</div>
+<div class="section" id="geotagging-images-for-spatial-analysis">
+<h3>Geotagging images for spatial analysis<a class="headerlink" href="#geotagging-images-for-spatial-analysis" title="Permalink to this headline">¶</a></h3>
+<p><strong>Reference:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://teach.dariah.eu/course/view.php?id=29">https://teach.dariah.eu/course/view.php?id=29</a></p></li>
+</ul>
+</div>
+<div class="section" id="georectification">
+<h3>Georectification<a class="headerlink" href="#georectification" title="Permalink to this headline">¶</a></h3>
+<p><strong>Reference:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://lincolnmullen.com/projects/spatial-workshop/georectification.html">https://lincolnmullen.com/projects/spatial-workshop/georectification.html</a></p></li>
+</ul>
+</div>
+<div class="section" id="map-annotation">
+<h3>Map annotation<a class="headerlink" href="#map-annotation" title="Permalink to this headline">¶</a></h3>
+<p><strong>Reference:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.kaggle.com/rtatman/geographically-annotated-civil-war-corpus">https://www.kaggle.com/rtatman/geographically-annotated-civil-war-corpus</a></p></li>
+</ul>
+</div>
+<div class="section" id="text-recognition">
+<h3>Text recognition<a class="headerlink" href="#text-recognition" title="Permalink to this headline">¶</a></h3>
+<p><strong>References:</strong></p>
+<ul class="simple">
+<li><p><a class="reference external" href="https://www.kaggle.com/geonames/geonames-database">https://www.kaggle.com/geonames/geonames-database</a></p></li>
+<li><p><a class="reference external" href="https://medium.com/&#64;tjukanov/places-and-their-names-observations-from-11-million-place-names-8ea34cf61da4">Places and their names — observations from 11 million place names | by Topi Tjukanov | Medium</a></p></li>
+</ul>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="01-Considerations-for-FAIR-research.html" title="previous page">What is FAIR data and software?</a>
+    <a class='right-next' id="next-link" href="03-Open-Source-Tools-and-Software.html" title="next page">The Open Source Geospatial Foundation</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>

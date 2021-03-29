@@ -1,0 +1,501 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learning how to code &#8212; Delft Digital Humanities Organization Website</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="Making maps" href="S4-Visualise-GeoData.html" />
+    <link rel="prev" title="Data Conversion" href="S2-Prepare-GeoData.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Delft Digital Humanities Organization Website</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="current nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html">
+   1. Urban population density by built area
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
+   The Open Source Geospatial Foundation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-Reproducible-Research.html">
+   Reproducibility
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
+   Common roles and activities related to research data management and software
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S1-Collect-GeoData.html">
+   Geodata Open Data sources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html">
+   Data Conversion
+  </a>
+ </li>
+ <li class="toctree-l1 current active">
+  <a class="current reference internal" href="#">
+   Learning how to code
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S4-Visualise-GeoData.html">
+   Making maps
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S5-Share-GeoData--and-Code.html">
+   Data and Code Repositories
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="_Footer.html">
+   Contribute to this page to make it better!
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="_Footer.html#have-a-comment">
+   Have a comment?
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/S3-Analyse-GeoData.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/delft-dh/delft-dh.github.io"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#here-are-some-resources-that-can-help-you-get-started">
+   Here are some resources that can help you get started:
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#here-are-some-tutorials-that-cover-specific-types-of-analyses">
+   Here are some tutorials that cover specific types of analyses
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#python-packages-for-geospatial-analysis">
+   Python packages for geospatial analysis
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#arcpy">
+     ArcPy
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#descartes">
+     descartes
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#earthpy">
+     earthpy
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#folium">
+     folium
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#gdal-including-ogr-and-osr">
+     gdal (including ogr and osr)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#geocube">
+     geocube
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#geojson">
+     geojson
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#geopandas">
+     geopandas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#matplotlib">
+     matplotlib
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#numpy">
+     numpy
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pandas">
+     pandas
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#pyshp">
+     pyshp
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#python-imaging-library-pil-pillow">
+     Python Imaging Library (PIL) / pillow
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#shapely">
+     shapely
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#rasterio">
+     rasterio
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#xarray">
+     xarray
+    </a>
+   </li>
+  </ul>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#r-packages-for-geospatial-analysis">
+   R packages for geospatial analysis
+  </a>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="learning-how-to-code">
+<h1>Learning how to code<a class="headerlink" href="#learning-how-to-code" title="Permalink to this headline">¶</a></h1>
+<p>Learning how to work in a programming language like Python or R requires commitment and time to master. However, because these are highly useful and open-source tools that have applications in a broad array of disciplines, there is a plethora of knowledge available to help get started and troubleshoot challenges you run into. Generally speaking, you will find the information you need by searching for <the name of the library you want to use> + “documentation”, or by searching a specific question on community forums like Stack Overflow.</p>
+<div class="section" id="here-are-some-resources-that-can-help-you-get-started">
+<h2>Here are some resources that can help you get started:<a class="headerlink" href="#here-are-some-resources-that-can-help-you-get-started" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p>To get started with GIS analysis in Python, see <a class="reference external" href="https://carpentries-incubator.github.io/geospatial-python/04-geo-landscape/index.html">Software Carpentries</a></p></li>
+<li><p>For an introduction to GIS analysis in R, see Phil Hurvitz’s <a class="reference external" href="http://staff.washington.edu/phurvitz/r_gis/">free online course from the University of Washington</a></p></li>
+<li><p>To follow a hands-on course analyzing GIS sample data, see <a class="reference external" href="https://www.kaggle.com/alexisbcook/geospatial-learn-course-data/notebooks">this micro-course on geospatial analysis from Kaggle</a></p></li>
+<li><p>To hone your skills working with the pandas data science library in Python, follow <a class="reference external" href="https://www.kaggle.com/learn/pandas">this micro-course on pandas from Kaggle</a></p></li>
+<li><p><a class="reference external" href="https://programminghistorian.org/en/lessons/geospatial-data-analysis">Using Geospatial Data to Inform Historical Research in R</a></p></li>
+<li><p><a class="reference external" href="https://digital-geography.com/run-gis-functions-directly-in-python-with-geopandas/">Run GIS functions in Python with GeoPandas</a></p></li>
+</ul>
+</div>
+<div class="section" id="here-are-some-tutorials-that-cover-specific-types-of-analyses">
+<h2>Here are some tutorials that cover specific types of analyses<a class="headerlink" href="#here-are-some-tutorials-that-cover-specific-types-of-analyses" title="Permalink to this headline">¶</a></h2>
+<ul class="simple">
+<li><p><a class="reference external" href="https://medium.com/&#64;tjukanov/searching-for-isolation-with-gis-eea3f2ab7d99">Nearest neighbor</a></p></li>
+<li><p><a class="reference external" href="https://medium.com/&#64;tjukanov/places-and-their-names-observations-from-11-million-place-names-8ea34cf61da4">Text analysis</a></p></li>
+<li><p><a class="reference external" href="https://automating-gis-processes.github.io/2017/lessons/L4/geometric-operations.html">Geometric operations</a></p></li>
+<li><p><a class="reference external" href="https://digital-geography.com/working-with-clusters-in-leaflet-increasing-useability/">Cluster analysis</a></p></li>
+<li><p><a class="reference external" href="https://medium.com/tech-carnot/plotly-datashader-visualizing-large-geospatial-datasets-bea27b9d7824">Visualizing big geodata</a></p></li>
+</ul>
+</div>
+<div class="section" id="python-packages-for-geospatial-analysis">
+<h2>Python packages for geospatial analysis<a class="headerlink" href="#python-packages-for-geospatial-analysis" title="Permalink to this headline">¶</a></h2>
+<p>Many of these package descriptions come from <a class="reference external" href="https://chrieke.medium.com/essential-geospatial-python-libraries-5d82fcc38731">this article</a> by Christoph Rieke[1] on <a class="reference external" href="http://medium.com">medium.com</a> and the list of <a class="reference external" href="https://hydro-informatics.github.io/geo-pckg.html">open-source geospatial Python packages</a> by Sebastian Schwindt[2].</p>
+<div class="section" id="arcpy">
+<h3>ArcPy<a class="headerlink" href="#arcpy" title="Permalink to this headline">¶</a></h3>
+<p>From <a class="reference external" href="https://pro.arcgis.com/en/pro-app/latest/arcpy/get-started/what-is-arcpy-.htm">pro.arcgis.com</a>: “ArcPy is a Python site package that provides a useful and productive way to perform geographic data analysis, data conversion, data management, and map automation with Python.”</p>
+</div>
+<div class="section" id="descartes">
+<h3>descartes<a class="headerlink" href="#descartes" title="Permalink to this headline">¶</a></h3>
+<p>“Even though of proprietary origin, the descartes package (developed and maintained by Descartes Labs) comes with many open-sourced functions. Moreover, Decartes Labs hosts the showcase platform GeoVisual Search with juicy illustrations of artificial intelligence (AI) applications in geoscience.” [2] “Enables plotting of shapely geometries as matplotlib paths/ patches. Also a dependency for the geometry plotting functions of geopandas.” [1]</p>
+<p>To install descartes for Python, open Anaconda Prompt and type: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">conda-forge</span> <span class="pre">descartes</span></code></p>
+</div>
+<div class="section" id="earthpy">
+<h3>earthpy<a class="headerlink" href="#earthpy" title="Permalink to this headline">¶</a></h3>
+<p>From <a class="reference external" href="https://earthpy.readthedocs.io/en/latest/">earthpy.readthedocs.io</a>: “EarthPy is a python package that makes it easier to plot and work with spatial raster and vector data using open source tools. Earthpy depends upon geopandas which has a focus on vector data and rasterio with facilitates input and output of raster data files. It also requires matplotlib for plotting operations. EarthPy’s goal is to make working with spatial data easier for scientists. Contributions to EarthPy are welcome.”</p>
+</div>
+<div class="section" id="folium">
+<h3>folium<a class="headerlink" href="#folium" title="Permalink to this headline">¶</a></h3>
+<p>From <a class="reference external" href="https://python-visualization.github.io/folium/">python-visualization.github.io/folium</a>: “Folium makes it easy to visualize data that’s been manipulated in Python on an interactive leaflet map. It enables both the binding of data to a map for choropleth visualizations as well as passing rich vector/raster/HTML visualizations as markers on the map.The library has a number of built-in tilesets from OpenStreetMap, Mapbox, and Stamen, and supports custom tilesets with Mapbox or Cloudmade API keys. folium supports both Image, Video, GeoJSON and TopoJSON overlays.”</p>
+</div>
+<div class="section" id="gdal-including-ogr-and-osr">
+<h3>gdal (including ogr and osr)<a class="headerlink" href="#gdal-including-ogr-and-osr" title="Permalink to this headline">¶</a></h3>
+<p>“gdal and ogr of the OSGeo Project stem from the GDAL project, which is part of the Open Source Geospatial Foundation (OSGeo) - the developers of QGIS. gdal provides many methods to convert geospatial data (file types, projections, derive geometries), where gdal itself handels raster data and its ogr module handles vector data. The tutorials on this website depend on gdal and ogr (including osr for spatial referencing); so it is important to get the installation of gdal right.”[2]</p>
+<p>To install gdal for Python, open Anaconda Prompt and type: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">conda-forge</span> <span class="pre">gdal</span></code></p>
+</div>
+<div class="section" id="geocube">
+<h3>geocube<a class="headerlink" href="#geocube" title="Permalink to this headline">¶</a></h3>
+<p>From <a class="reference external" href="https://pypi.org/project/geocube/">pypi.org/project/geocube</a>: “Tool to convert geopandas vector data into rasterized xarray data.”</p>
+</div>
+<div class="section" id="geojson">
+<h3>geojson<a class="headerlink" href="#geojson" title="Permalink to this headline">¶</a></h3>
+<p>“geojson is the most direct option for handling GeoJSON data.” [2]</p>
+<p>To install geojson for Python, open Anaconda Prompt and type: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">conda-forge</span> <span class="pre">geojson</span></code></p>
+<p>From <a class="reference external" href="https://pypi.org/project/geojson/">pypi.org/project/geojson</a>: “This Python library contains:</p>
+<ul class="simple">
+<li><p>Functions for encoding and decoding GeoJSON formatted data</p></li>
+<li><p>Classes for all GeoJSON Objects</p></li>
+<li><p>An implementation of the Python <strong>geo_interface</strong> Specification</p></li>
+</ul>
+</div>
+<div class="section" id="geopandas">
+<h3>geopandas<a class="headerlink" href="#geopandas" title="Permalink to this headline">¶</a></h3>
+<p>“Geopandas combines the geometry objects of shapely, the read/write/ projection functions of fiona and the powerful dataframe interface of the pandas library in one awesome package. In the spreadsheet-like dataframe, the last column ‘geometry’ stores the shapely geometry objects, all shapely functions can be applied. The pandas mechanics offers super easy ways to manipulate, plot and analyze the data, e.g. dataframe groupby operations etc.”[1]</p>
+</div>
+<div class="section" id="matplotlib">
+<h3>matplotlib<a class="headerlink" href="#matplotlib" title="Permalink to this headline">¶</a></h3>
+<p>From <a class="reference external" href="https://matplotlib.org/">matplotlib.org</a>: “Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.”</p>
+</div>
+<div class="section" id="numpy">
+<h3>numpy<a class="headerlink" href="#numpy" title="Permalink to this headline">¶</a></h3>
+<p>From <a class="reference external" href="https://numpy.org/">numpy.org</a>: NumPy is “The fundamental package for scientific computing with Python. NumPy offers comprehensive mathematical functions, random number generators, linear algebra routines, Fourier transforms, and more.”.</p>
+</div>
+<div class="section" id="pandas">
+<h3>pandas<a class="headerlink" href="#pandas" title="Permalink to this headline">¶</a></h3>
+<p>From <a class="reference external" href="https://pandas.pydata.org/about/">pandas.pydata.org</a>: “pandas aims to be the fundamental high-level building block for doing practical, real world data analysis in Python. Additionally, it has the broader goal of becoming the most powerful and flexible open source data analysis / manipulation tool available in any language.”</p>
+</div>
+<div class="section" id="pyshp">
+<h3>pyshp<a class="headerlink" href="#pyshp" title="Permalink to this headline">¶</a></h3>
+<p>“As a shapefile handling package, pyshp provides pure Python code (rather than wrappers), which simplifies direct dealing with shapefiles in Python.” [2] To install pyshp for Python, open Anaconda Prompt and type: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">conda-forge</span> <span class="pre">pyshp</span></code></p>
+</div>
+<div class="section" id="python-imaging-library-pil-pillow">
+<h3>Python Imaging Library (PIL) / pillow<a class="headerlink" href="#python-imaging-library-pil-pillow" title="Permalink to this headline">¶</a></h3>
+<p>“Processing images with Python is enabled with the Python Imaging Library (PIL). PIL supports many image file formats, and has efficient graphics processing capabilities. The pillow library is a user-friendly PIL fork and provides Image* modules (e.g., Image, ImageDraw, ImageMath, and many more).” [2]</p>
+<p>To install pillow in a conda environment open Anaconda Prompt and type: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">anaconda</span> <span class="pre">pillow</span></code></p>
+</div>
+<div class="section" id="shapely">
+<h3>shapely<a class="headerlink" href="#shapely" title="Permalink to this headline">¶</a></h3>
+<p>“With shapely, you can create shapely geometry objects (e.g. Point, Polygon, Multipolygon) and manipulate them, e.g. buffer, calculate the area or an intersection etc. Shapely itself does not provide options to read/write vector file formats (e.g. shapefiles or geojson) or handle projection conversions. This can be handled e.g. with the Fiona library.” [1]</p>
+<p>To install shapely for Python, open Anaconda Prompt and type: <code class="docutils literal notranslate"><span class="pre">conda</span> <span class="pre">install</span> <span class="pre">-c</span> <span class="pre">conda-forge</span> <span class="pre">shapely</span></code></p>
+</div>
+<div class="section" id="rasterio">
+<h3>rasterio<a class="headerlink" href="#rasterio" title="Permalink to this headline">¶</a></h3>
+<p>“Rasterio is the go-to library for raster data handling. It lets you read/write raster files to/from numpy arrays (the de-facto standard for Python array operations), offers many convenient ways to manipulate these array (e.g. masking, vectorizing etc.) and can handle transformations of coordinate reference systems. Just like any other numpy array, the data can also be easily plotted, e.g. using the matplotlib library.” [1]</p>
+</div>
+<div class="section" id="xarray">
+<h3>xarray<a class="headerlink" href="#xarray" title="Permalink to this headline">¶</a></h3>
+<p>“xarray lets you label the dimensions of the multidimensional numpy array and combines this with many functions and the syntax of the pandas library (e.g. groupby, rolling window, plotting). Not essential for beginners, but it is a great addition when working with extensive time series data.” [1]</p>
+</div>
+</div>
+<div class="section" id="r-packages-for-geospatial-analysis">
+<h2>R packages for geospatial analysis<a class="headerlink" href="#r-packages-for-geospatial-analysis" title="Permalink to this headline">¶</a></h2>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='left-prev' id="prev-link" href="S2-Prepare-GeoData.html" title="previous page">Data Conversion</a>
+    <a class='right-next' id="next-link" href="S4-Visualise-GeoData.html" title="next page">Making maps</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>

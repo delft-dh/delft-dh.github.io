@@ -1,0 +1,408 @@
+
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What is FAIR data and software? &#8212; Delft Digital Humanities Organization Website</title>
+    
+  <link rel="stylesheet" href="_static/css/index.73d71520a4ca3b99cfee5594769eaaae.css">
+
+    
+  <link rel="stylesheet"
+    href="_static/vendor/fontawesome/5.13.0/css/all.min.css">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-solid-900.woff2">
+  <link rel="preload" as="font" type="font/woff2" crossorigin
+    href="_static/vendor/fontawesome/5.13.0/webfonts/fa-brands-400.woff2">
+
+    
+      
+  <link rel="stylesheet"
+    href="_static/vendor/open-sans_all/1.44.1/index.css">
+  <link rel="stylesheet"
+    href="_static/vendor/lato_latin-ext/1.44.1/index.css">
+
+    
+    <link rel="stylesheet" href="_static/sphinx-book-theme.40e2e510f6b7d1648584402491bb10fe.css" type="text/css" />
+    <link rel="stylesheet" href="_static/pygments.css" type="text/css" />
+    <link rel="stylesheet" type="text/css" href="_static/togglebutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/copybutton.css" />
+    <link rel="stylesheet" type="text/css" href="_static/mystnb.css" />
+    <link rel="stylesheet" type="text/css" href="_static/sphinx-thebe.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-main.c949a650a448cc0ae9fd3441c0e17fb0.css" />
+    <link rel="stylesheet" type="text/css" href="_static/panels-variables.06eb56fa6e07937060861dad626602ad.css" />
+    
+  <link rel="preload" as="script" href="_static/js/index.3da636dd464baa7582d2.js">
+
+    <script id="documentation_options" data-url_root="./" src="_static/documentation_options.js"></script>
+    <script src="_static/jquery.js"></script>
+    <script src="_static/underscore.js"></script>
+    <script src="_static/doctools.js"></script>
+    <script src="_static/language_data.js"></script>
+    <script src="_static/togglebutton.js"></script>
+    <script src="_static/clipboard.min.js"></script>
+    <script src="_static/copybutton.js"></script>
+    <script >var togglebuttonSelector = '.toggle, .admonition.dropdown, .tag_hide_input div.cell_input, .tag_hide-input div.cell_input, .tag_hide_output div.cell_output, .tag_hide-output div.cell_output, .tag_hide_cell.cell, .tag_hide-cell.cell';</script>
+    <script src="_static/sphinx-book-theme.d31b09fe5c1d09cb49b26a786de4a05d.js"></script>
+    <script async="async" src="https://unpkg.com/thebelab@latest/lib/index.js"></script>
+    <script >
+        const thebe_selector = ".thebe"
+        const thebe_selector_input = "pre"
+        const thebe_selector_output = ".output"
+    </script>
+    <script async="async" src="_static/sphinx-thebe.js"></script>
+    <link rel="index" title="Index" href="genindex.html" />
+    <link rel="search" title="Search" href="search.html" />
+    <link rel="next" title="1. Urban population density by built area" href="02-Demo-Repos-for-HGIS-Analysis.html" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="docsearch:language" content="en" />
+
+
+
+  </head>
+  <body data-spy="scroll" data-target="#bd-toc-nav" data-offset="80">
+    
+
+    <div class="container-xl">
+      <div class="row">
+          
+<div class="col-12 col-md-3 bd-sidebar site-navigation show" id="site-navigation">
+    
+        <div class="navbar-brand-box">
+<a class="navbar-brand text-wrap" href="index.html">
+  
+  
+  <h1 class="site-logo" id="site-title">Delft Digital Humanities Organization Website</h1>
+  
+</a>
+</div><form class="bd-search d-flex align-items-center" action="search.html" method="get">
+  <i class="icon fas fa-search"></i>
+  <input type="search" class="form-control" name="q" id="search-input" placeholder="Search this book..." aria-label="Search this book..." autocomplete="off" >
+</form>
+<nav class="bd-links" id="bd-docs-nav" aria-label="Main navigation">
+    <ul class="nav sidenav_l1">
+ <li class="toctree-l1">
+  <a class="reference internal" href="02-Demo-Repos-for-HGIS-Analysis.html">
+   1. Urban population density by built area
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="03-Open-Source-Tools-and-Software.html">
+   The Open Source Geospatial Foundation
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="04-Reproducible-Research.html">
+   Reproducibility
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="05-RDM-Roles-and-Responsibilities.html">
+   Common roles and activities related to research data management and software
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S1-Collect-GeoData.html">
+   Geodata Open Data sources
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S2-Prepare-GeoData.html">
+   Data Conversion
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S3-Analyse-GeoData.html">
+   Learning how to code
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S4-Visualise-GeoData.html">
+   Making maps
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="S5-Share-GeoData--and-Code.html">
+   Data and Code Repositories
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="_Footer.html">
+   Contribute to this page to make it better!
+  </a>
+ </li>
+ <li class="toctree-l1">
+  <a class="reference internal" href="_Footer.html#have-a-comment">
+   Have a comment?
+  </a>
+ </li>
+</ul>
+
+</nav> <!-- To handle the deprecated key -->
+
+<div class="navbar_extra_footer">
+  Powered by <a href="https://jupyterbook.org">Jupyter Book</a>
+</div>
+
+</div>
+
+
+          
+
+
+          
+<main class="col py-md-3 pl-md-4 bd-content overflow-auto" role="main">
+    
+    <div class="row topbar fixed-top container-xl">
+    <div class="col-12 col-md-3 bd-topbar-whitespace site-navigation show">
+    </div>
+    <div class="col pl-2 topbar-main">
+        
+        <button id="navbar-toggler" class="navbar-toggler ml-0" type="button" data-toggle="collapse"
+            data-toggle="tooltip" data-placement="bottom" data-target=".site-navigation" aria-controls="navbar-menu"
+            aria-expanded="true" aria-label="Toggle navigation" aria-controls="site-navigation"
+            title="Toggle navigation" data-toggle="tooltip" data-placement="left">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-arrow-left"></i>
+            <i class="fas fa-arrow-up"></i>
+        </button>
+        
+        
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn" aria-label="Download this page"><i
+            class="fas fa-download"></i></button>
+
+    <div class="dropdown-buttons">
+        <!-- ipynb file if we had a myst markdown file -->
+        
+        <!-- Download raw file -->
+        <a class="dropdown-buttons" href="_sources/01-Considerations-for-FAIR-research.md"><button type="button"
+                class="btn btn-secondary topbarbtn" title="Download source file" data-toggle="tooltip"
+                data-placement="left">.md</button></a>
+        <!-- Download PDF via print -->
+        <button type="button" id="download-print" class="btn btn-secondary topbarbtn" title="Print to PDF"
+            onClick="window.print()" data-toggle="tooltip" data-placement="left">.pdf</button>
+    </div>
+</div>
+
+        <!-- Source interaction buttons -->
+
+<div class="dropdown-buttons-trigger">
+    <button id="dropdown-buttons-trigger" class="btn btn-secondary topbarbtn"
+        aria-label="Connect with source repository"><i class="fab fa-github"></i></button>
+    <div class="dropdown-buttons sourcebuttons">
+        <a class="repository-button"
+            href="https://github.com/delft-dh/delft-dh.github.io"><button type="button" class="btn btn-secondary topbarbtn"
+                data-toggle="tooltip" data-placement="left" title="Source repository"><i
+                    class="fab fa-github"></i>repository</button></a>
+        
+        
+    </div>
+</div>
+
+
+        <!-- Full screen (wrap in <a> to have style consistency -->
+        <a class="full-screen-button"><button type="button" class="btn btn-secondary topbarbtn" data-toggle="tooltip"
+                data-placement="bottom" onclick="toggleFullScreen()" aria-label="Fullscreen mode"
+                title="Fullscreen mode"><i
+                    class="fas fa-expand"></i></button></a>
+
+        <!-- Launch buttons -->
+
+    </div>
+
+    <!-- Table of contents -->
+    <div class="d-none d-md-block col-md-2 bd-toc show">
+        
+        <div class="tocsection onthispage pt-5 pb-3">
+            <i class="fas fa-list"></i> Contents
+        </div>
+        <nav id="bd-toc-nav">
+            <ul class="nav section-nav flex-column">
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#the-fair-guiding-principles">
+   The FAIR guiding principles
+  </a>
+ </li>
+ <li class="toc-h2 nav-item toc-entry">
+  <a class="reference internal nav-link" href="#disciplinary-metadata">
+   Disciplinary metadata
+  </a>
+  <ul class="nav section-nav flex-column">
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#data-documentation-initiative-ddi">
+     Data Documentation Initiative (DDI)
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#iso-metadata-standards">
+     ISO metadata standards
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#fgdc-metadata-standards">
+     FGDC metadata standards
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#dublin-core-metadata-initiative-dcmi-standards">
+     Dublin Core Metadata Initiative (DCMI) standards
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#inspire-metadata-standards">
+     INSPIRE metadata standards
+    </a>
+   </li>
+   <li class="toc-h3 nav-item toc-entry">
+    <a class="reference internal nav-link" href="#learn-more">
+     Learn more
+    </a>
+   </li>
+  </ul>
+ </li>
+</ul>
+
+        </nav>
+        
+    </div>
+</div>
+    <div id="main-content" class="row">
+        <div class="col-12 col-md-9 pl-md-3 pr-md-0">
+        
+              <div>
+                
+  <div class="section" id="what-is-fair-data-and-software">
+<h1>What is FAIR data and software?<a class="headerlink" href="#what-is-fair-data-and-software" title="Permalink to this headline">¶</a></h1>
+<p>From <a class="reference external" href="https://www.openaire.eu/how-to-make-your-data-fair">openaire.eu</a>: “The FAIR principles describe how research outputs should be organised so they can be more easily accessed, understood, exchanged and reused. Major funding bodies, including the European Commission, promote FAIR data to maximise the integrity and impact of their research investment.” FAIR stands for <strong>F</strong>indable, <strong>A</strong>ccessible, <strong>I</strong>nteroperable, and <strong>R</strong>eusable/<strong>R</strong>eproducible.</p>
+<p>Resources to learn more about the FAIR principles and how to apply them:</p>
+<ul class="simple">
+<li><p>The <a class="reference external" href="https://www.go-fair.org/fair-principles/">GO FAIR</a> community, which has been working towards implementations of the FAIR Guiding Principles since 2018</p></li>
+<li><p><a class="reference external" href="https://www.openaire.eu/how-to-make-your-data-fair">How to Make your Data FAIR</a> - guide for researchers by <a class="reference external" href="http://OpenAIRE.eu">OpenAIRE.eu</a></p></li>
+<li><p><a class="reference external" href="https://ec.europa.eu/research/participants/data/ref/h2020/grants_manual/hi/oa_pilot/h2020-hi-oa-data-mgt_en.pdf">Guidelines on FAIR Data Management in Horizon 2020</a> from the European Commission (PDF)</p></li>
+</ul>
+<div class="section" id="the-fair-guiding-principles">
+<h2>The FAIR guiding principles<a class="headerlink" href="#the-fair-guiding-principles" title="Permalink to this headline">¶</a></h2>
+<p>Source: <a class="reference external" href="https://doi.org/10.1038/sdata.2016.18">https://doi.org/10.1038/sdata.2016.18</a></p>
+<p>To be <strong>Findable:</strong></p>
+<ul class="simple">
+<li><p>F1. (meta)data are assigned a globally unique and persistent identifier (DOI)</p></li>
+<li><p>F2. data are described with rich metadata (defined by R1 below)</p></li>
+<li><p>F3. metadata clearly and explicitly include the identifier of the data it describes</p></li>
+<li><p>F4. (meta)data are registered or indexed in a searchable resource</p></li>
+</ul>
+<p>To be <strong>Accessible:</strong></p>
+<ul class="simple">
+<li><p>A1. (meta)data are retrievable by their identifier using a standardized communications protocol</p></li>
+<li><p>A1.1. the protocol is free, open and universally implementable</p></li>
+<li><p>A1.2. the protocol allows for an authentication and authorization procedure, where necessary</p></li>
+<li><p>A2. metadata are accessible, even when the data are no longer available</p></li>
+</ul>
+<p>To be <strong>Interoperable:</strong></p>
+<ul class="simple">
+<li><p>I1. (meta)data use a formal, accessible, shared, and broadly applicable language for knowledge representation</p></li>
+<li><p>I2. (meta)data uses vocabularies that follow FAIR principles</p></li>
+<li><p>I3. (meta)data include qualified references to other (meta)data</p></li>
+</ul>
+<p>To be <strong>Reusable:</strong></p>
+<ul class="simple">
+<li><p>R1. (meta)data are richly described with a plurality of accurate and relevant attributes</p></li>
+<li><p>R1.1. (meta)data are released with a clear and accessible data usage license</p></li>
+<li><p>R1.2. (meta)data are associated with data provenance</p></li>
+<li><p>R1.3. (meta)data meet domain relevant community standards</p></li>
+</ul>
+</div>
+<div class="section" id="disciplinary-metadata">
+<h2>Disciplinary metadata<a class="headerlink" href="#disciplinary-metadata" title="Permalink to this headline">¶</a></h2>
+<div class="section" id="data-documentation-initiative-ddi">
+<h3>Data Documentation Initiative (DDI)<a class="headerlink" href="#data-documentation-initiative-ddi" title="Permalink to this headline">¶</a></h3>
+<p>“While data curators, and increasingly researchers, know that good metadata is key for research data access and re-use, figuring out precisely what metadata to capture and how to capture it is a complex task. Fortunately, many academic disciplines have supported initiatives to formalise the metadata specifications the community deems to be required for data re-use. <a class="reference external" href="https://www.dcc.ac.uk/guidance/standards/metadata">This page</a> [by the Data Documentation Initiative] provides links to information about these disciplinary metadata standards, including profiles, tools to implement the standards, and use cases of data repositories currently implementing them.” Also see this <a class="reference external" href="https://www.dcc.ac.uk/guidance/standards/metadata/list">full list of metadata standards</a> per discipline maintained by the DDI.</p>
+</div>
+<div class="section" id="iso-metadata-standards">
+<h3>ISO metadata standards<a class="headerlink" href="#iso-metadata-standards" title="Permalink to this headline">¶</a></h3>
+<p>The International Organisation for Standardization (ISO) is the largest developer and publisher of international standards. International standards are used like OGC standards to make sure industry works efficiently, and information and data are interoperable making it easier, quicker and more reliable to share and to control. ISO formed in 1947 and has a library of 19 500 standards covering a wide range of sectors. ISO also develops and publishes metadata standards, the ones relevant to the geospatial sector include:</p>
+<p><img alt="ISO standards" src="https://user-images.githubusercontent.com/70262847/112447112-3a9a7300-8d51-11eb-8445-0af6b3f366b2.png" /></p>
+</div>
+<div class="section" id="fgdc-metadata-standards">
+<h3>FGDC metadata standards<a class="headerlink" href="#fgdc-metadata-standards" title="Permalink to this headline">¶</a></h3>
+<p>FGDC stands for Federal Geographic Data Committee (FGDC) and is a committee that promote coordinated development, use, sharing and dissemination of geospatial data on a national basis in the US. One of FGDC’s principal tasks is to develop and assist in the adaptation, development and delivery of metadata standards.</p>
+<p>FGDC were responsible for the metadata standards program called the Content Standard for Digital Geospatial Metadata (CSDGM) that has been a long standing metadata standard that is used by many organisations. However, the FGDC now endorses the transition of metadata standards to ISO metadata standards.</p>
+</div>
+<div class="section" id="dublin-core-metadata-initiative-dcmi-standards">
+<h3>Dublin Core Metadata Initiative (DCMI) standards<a class="headerlink" href="#dublin-core-metadata-initiative-dcmi-standards" title="Permalink to this headline">¶</a></h3>
+<p>The Dublin Core Metadata Initiative is an open, public and not-for-profit organisation which aims to develop, support and share metadata in an appropriate standard system that enhances the provision of resources like geographical information. DCMI manages creation and development of Metadata standard specifications and terms as well as training resources based around metadata best practice. These are among several other tasks the DCMI takes part in. DCMI developed standards that follow an Element set that is made up of 15 properties that are to always be used within resource description (i.e. metadata). The 15 properties are described in Table 1.</p>
+<p><img alt="Dublin Core" src="https://user-images.githubusercontent.com/70262847/112447204-556ce780-8d51-11eb-82f2-2d5f9bf417cc.png" /></p>
+<p>Table 1. DCMI Element Set used within resource description. Source: DCMI Element Set Version 1.1 Website (<a class="reference external" href="http://dublincore.org/documents/dces/">http://dublincore.org/documents/dces/</a>).</p>
+</div>
+<div class="section" id="inspire-metadata-standards">
+<h3>INSPIRE metadata standards<a class="headerlink" href="#inspire-metadata-standards" title="Permalink to this headline">¶</a></h3>
+<p>The INSPIRE directive, which began in 2007, aims to provide a European Union (EU) spatial data infrastructure (SDI) that will be able to improve access to spatial data within several environmental sectors. The information about INSPIRE was covered in unit 1, so if you want to know more you can refer back to that unit.</p>
+<p>Metadata is a big part of the INSPIRE directive, which means that metadata standards are also an important part as well. INSPIRE metadata standards have been chosen from existing standard types and are the ones seen as being the most important and efficient. The metadata standards that are INSPIRE compliant includes:</p>
+<p><img alt="INSPIRE" src="https://user-images.githubusercontent.com/70262847/112447211-57cf4180-8d51-11eb-936d-e322ca9a1bb2.png" /></p>
+</div>
+<div class="section" id="learn-more">
+<h3>Learn more<a class="headerlink" href="#learn-more" title="Permalink to this headline">¶</a></h3>
+<p>Much of the above information on Metadata Standards for Geospatial Data comes from this <a class="reference external" href="http://learningzone.rspsoc.org.uk/index.php/Learning-Materials/Introduction-to-OGC-Standards/4.2-Geospatial-metadata-standards">Course on Open Geospatial Consortium standards</a>  by Dominic Taylor and Joseph McGenn is licensed under a Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported License</p>
+<div class="toctree-wrapper compound">
+</div>
+</div>
+</div>
+</div>
+
+    <script type="text/x-thebe-config">
+    {
+        requestKernel: true,
+        binderOptions: {
+            repo: "binder-examples/jupyter-stacks-datascience",
+            ref: "master",
+        },
+        codeMirrorConfig: {
+            theme: "abcdef",
+            mode: "python"
+        },
+        kernelOptions: {
+            kernelName: "python3",
+            path: "./."
+        },
+        predefinedOutput: true
+    }
+    </script>
+    <script>kernelName = 'python3'</script>
+
+              </div>
+              
+        </div>
+    </div>
+    
+    
+    <div class='prev-next-bottom'>
+        
+    <a class='right-next' id="next-link" href="02-Demo-Repos-for-HGIS-Analysis.html" title="next page">1. Urban population density by built area</a>
+
+    </div>
+    <footer class="footer mt-5 mt-md-0">
+    <div class="container">
+      <p>
+        
+          By The Jupyter Book community<br/>
+        
+            &copy; Copyright 2020.<br/>
+      </p>
+    </div>
+  </footer>
+</main>
+
+
+      </div>
+    </div>
+
+    
+  <script src="_static/js/index.3da636dd464baa7582d2.js"></script>
+
+
+    
+  </body>
+</html>
