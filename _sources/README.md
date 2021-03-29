@@ -3,7 +3,7 @@ The aim of the DDH Community Data Wiki is to articulate the Data Wheel framework
 
 The pages contain links to learning resources and popular programming libraries and packages (collections of ready-made functions) in geospatial analysis, as well as hands-on demonstrations of how to transition to a more reproducible workflow by collecting, preparing, analysing, visualising and sharing data. See the FAIR data and software section for information on including metadata and documentation to help make your research outputs Findable, Accessible, Interoperable and Reusable. 
 
-Use the menu bar on the right side of the Wiki to navigate to each section of the Wiki. Have fun! :) 
+Use the menu bar to navigate to each section of the Wiki. Have fun! :) 
 
 ![GeoPlatform_datawheel](uploads/b21d256c85b5533c891f5b663dab8b6a/GeoPlatform_datawheel.png)
 
