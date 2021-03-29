@@ -1,4 +1,4 @@
-## Making maps
+# Making maps
 
 ### Popular Python libraries for data visualisation
 

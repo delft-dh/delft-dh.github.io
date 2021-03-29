@@ -1,4 +1,4 @@
-## Reproducibility
+# Reproducibility
 
 As stated by Phil Hurvitz at the University of Washington: "Whereas desktop GIS packages are great applications for exploratory spatial data analysis and generation of map graphics, with typical work flows they are limited for scientific research. **If you can’t remember, reproduce, or clearly communicate your methodology, then what you are doing cannot be technically called “research.”**" See more in [this presentation.](http://staff.washington.edu/phurvitz/r_gis/images/reproducible_gis_csde_20200212a.pptm)
 

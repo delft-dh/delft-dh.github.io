@@ -1,0 +1,17 @@
+# in _config.yml
+title: "Delft Digital Humanities Organization Website"
+# logo: images/logo.png
+execute:
+  execute_notebooks: "off"
+
+only_build_toc_files: true
+
+exclude_patterns: [LICENSE.md, 02_Python_Draw_GIS/code/** images/**.*,./**/*.py, ./**/*.jpg ]
+
+# Information about where the book exists on the web
+repository:
+  url  : https://github.com/delft-dh/delft-dh.github.io
+
+html:
+  use_repository_button: true
+  home_page_in_navbar: false
