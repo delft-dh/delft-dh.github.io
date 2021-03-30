@@ -11,6 +11,9 @@ exclude_patterns: [LICENSE.md, 02_Python_Draw_GIS/code/** images/**.*,./**/*.py,
 # Information about where the book exists on the web
 repository:
   url  : https://github.com/delft-dh/delft-dh.github.io
+  comments:
+    utterances:
+      repo: delft-dh/delft-dh.github.io 
 
 html:
   use_repository_button: true
