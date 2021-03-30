@@ -9,3 +9,11 @@ Use the menu bar to navigate to each section of the Wiki. Have fun! :)
 
 Figure 1. The Data Wheel methodology (by Carola Hein and the Delft Digital Humanities group at Delft University of Technology).
 
+## Updating content from your local repository
+In order to add content to this repository you need to be able to clone the repository and work with git.
+1. Add the markdown contents
+2. Build the website with a command: Run in the bash terminal: `bash build.sh`
+3. Publish the website to github pages once built: `bash publish.sh`
+
+If you want to do both operations combined simply do: `bash build.sh | bash publish.sh`
+
