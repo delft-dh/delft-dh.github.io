@@ -10,4 +10,9 @@ cat  "${REPO}/_toc.yml"
 
 # Build static website
 jupyter-book build ${REPO}
-echo "Current dir is $(pwd)"
+
+# Lunch static website
+cd ${REPO}/_build/html
+start index.html
+echo "Opened static website in browser"
+
