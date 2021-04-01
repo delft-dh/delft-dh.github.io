@@ -11,7 +11,7 @@ cat  "${REPO}/_toc.yml"
 # Build static website
 jupyter-book build ${REPO}
 
-# Lunch static website
+# Launch static website
 cd ${REPO}/_build/html
 start index.html
 echo "Opened static website in browser"
