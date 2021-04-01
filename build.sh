@@ -1,4 +1,7 @@
 !/bin/bash
+# A simple bash script to automate the building of table of contents,
+# The static website and also to launch the local static website 
+
 REPO=$(pwd)
 cd ..
 echo "Changed directory to: $(pwd)"
